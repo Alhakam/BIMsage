@@ -1,0 +1,25 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<flamecleaning2021-08-19T11:39:09.729+02:007508.0e0>
+        a       <https://www.bim-sis.de/ontology/damage/srmo#Flaming> , owl:NamedIndividual .
+
+<plastering2021-08-19T11:39:09.745+02:007813.0e0>
+        a       <https://www.bim-sis.de/ontology/damage/srmo#Plastering> , owl:NamedIndividual .
+
+<wetcleaning2021-08-19T11:39:09.744+02:003420.0e0>
+        a       <https://www.bim-sis.de/ontology/damage/srmo#WetCleaning> , owl:NamedIndividual .
+
+<biozidecleaning2021-08-19T11:39:09.664+02:005050.0e0>
+        a       <https://www.bim-sis.de/ontology/damage/srmo#BiocidalTreatment> , owl:NamedIndividual .
+
+<maintenance2021-08-19T11:39:09.737+02:009978.0e0>
+        a       <https://www.bim-sis.de/ontology/damage/srmo#Maintenance_measure> , owl:NamedIndividual .
+
+<biozidepreven2021-08-19T11:39:09.733+02:005639.0e0>
+        a       <https://www.bim-sis.de/ontology/damage/srmo#PreventiveBiocidalTreatment> , owl:NamedIndividual .
+
+<drycleaning2021-08-19T11:39:09.740+02:009178.0e0>
+        a       <https://www.bim-sis.de/ontology/damage/srmo#DryCleaning> , owl:NamedIndividual .

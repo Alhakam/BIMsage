@@ -1,0 +1,6 @@
+de\tud\cib\dotknow\icdd\configuration\ICDDModifierTest.class
+de\tud\cib\dotknow\icdd\activedata\ActiveICDDTest.class
+de\tud\cib\dotknow\icdd\utility\filter\ICDDFilterTest.class
+de\tud\cib\dotknow\icdd\configuration\ICDDBuilderTest.class
+de\tud\cib\dotknow\icdd\activedata\treemodel\ICDDTreeCreatorTest.class
+de\tud\cib\dotknow\icdd\utility\filter\IfcICDDFilterTest.class

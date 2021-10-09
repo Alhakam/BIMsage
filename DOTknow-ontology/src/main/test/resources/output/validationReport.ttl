@@ -1,0 +1,171 @@
+@prefix schema: <https://schema.org/> .
+@prefix udo:   <https://wisib.de/ontologie/damage/udo#> .
+@prefix obda:  <https://w3id.org/obda/vocabulary#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix dot:   <https://w3id.org/dot#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix nsd:   <https://www.bim-sis.de/ontology/damage/nsd#> .
+@prefix sco:   <https://www.bim-sis.de/ontology/damage/sco#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+[ a       <http://www.w3.org/ns/shacl#ValidationReport> ;
+  <http://www.w3.org/ns/shacl#conforms>
+          false ;
+  <http://www.w3.org/ns/shacl#result>
+          [ a       <http://www.w3.org/ns/shacl#ValidationResult> ;
+            <http://www.w3.org/ns/shacl#focusNode>
+                    <https://www.bim-sis.de/ontology/abox/inst#de4a766e-a302-42ed-8b2c-b148cc6eaab7> ;
+            <http://www.w3.org/ns/shacl#resultMessage>
+                    "Does not have value at property 5" ;
+            <http://www.w3.org/ns/shacl#resultPath>
+                    nsd:damageImpact ;
+            <http://www.w3.org/ns/shacl#resultSeverity>
+                    <http://www.w3.org/ns/shacl#Violation> ;
+            <http://www.w3.org/ns/shacl#sourceConstraintComponent>
+                    <http://www.w3.org/ns/shacl#EqualsConstraintComponent> ;
+            <http://www.w3.org/ns/shacl#sourceShape>
+                    <https://bim-sis.de/ontology/shacl/dv#Intensity5> ;
+            <http://www.w3.org/ns/shacl#value>
+                    "3"^^xsd:int
+          ] ;
+  <http://www.w3.org/ns/shacl#result>
+          [ a       <http://www.w3.org/ns/shacl#ValidationResult> ;
+            <http://www.w3.org/ns/shacl#focusNode>
+                    <https://www.bim-sis.de/ontology/abox/inst#93663b3e-5c43-47f5-8d40-be830926ceaa> ;
+            <http://www.w3.org/ns/shacl#resultMessage>
+                    "Does not have value at property 2" ;
+            <http://www.w3.org/ns/shacl#resultPath>
+                    nsd:damageImpact ;
+            <http://www.w3.org/ns/shacl#resultSeverity>
+                    <http://www.w3.org/ns/shacl#Violation> ;
+            <http://www.w3.org/ns/shacl#sourceConstraintComponent>
+                    <http://www.w3.org/ns/shacl#EqualsConstraintComponent> ;
+            <http://www.w3.org/ns/shacl#sourceShape>
+                    <https://bim-sis.de/ontology/shacl/dv#Intensity2> ;
+            <http://www.w3.org/ns/shacl#value>
+                    "2"^^xsd:int
+          ] ;
+  <http://www.w3.org/ns/shacl#result>
+          [ a       <http://www.w3.org/ns/shacl#ValidationResult> ;
+            <http://www.w3.org/ns/shacl#focusNode>
+                    <https://www.bim-sis.de/ontology/abox/inst#de4a766e-a302-42ed-8b2c-b148cc6eaab7> ;
+            <http://www.w3.org/ns/shacl#resultMessage>
+                    "Does not have value at property 2" ;
+            <http://www.w3.org/ns/shacl#resultPath>
+                    nsd:damageImpact ;
+            <http://www.w3.org/ns/shacl#resultSeverity>
+                    <http://www.w3.org/ns/shacl#Violation> ;
+            <http://www.w3.org/ns/shacl#sourceConstraintComponent>
+                    <http://www.w3.org/ns/shacl#EqualsConstraintComponent> ;
+            <http://www.w3.org/ns/shacl#sourceShape>
+                    <https://bim-sis.de/ontology/shacl/dv#Intensity2> ;
+            <http://www.w3.org/ns/shacl#value>
+                    "3"^^xsd:int
+          ] ;
+  <http://www.w3.org/ns/shacl#result>
+          [ a       <http://www.w3.org/ns/shacl#ValidationResult> ;
+            <http://www.w3.org/ns/shacl#focusNode>
+                    <https://www.bim-sis.de/ontology/abox/inst#93663b3e-5c43-47f5-8d40-be830926ceaa> ;
+            <http://www.w3.org/ns/shacl#resultMessage>
+                    "Does not have value at property 2" ;
+            <http://www.w3.org/ns/shacl#resultPath>
+                    nsd:damageImpact ;
+            <http://www.w3.org/ns/shacl#resultSeverity>
+                    <http://www.w3.org/ns/shacl#Violation> ;
+            <http://www.w3.org/ns/shacl#sourceConstraintComponent>
+                    <http://www.w3.org/ns/shacl#EqualsConstraintComponent> ;
+            <http://www.w3.org/ns/shacl#sourceShape>
+                    <https://bim-sis.de/ontology/shacl/dv#Intensity2> ;
+            <http://www.w3.org/ns/shacl#value>
+                    "2"^^xsd:int
+          ] ;
+  <http://www.w3.org/ns/shacl#result>
+          [ a       <http://www.w3.org/ns/shacl#ValidationResult> ;
+            <http://www.w3.org/ns/shacl#focusNode>
+                    <https://www.bim-sis.de/ontology/abox/inst#67e86b85-f27c-4316-b27d-d93b647584b1> ;
+            <http://www.w3.org/ns/shacl#resultMessage>
+                    "Value is not greater than 1" ;
+            <http://www.w3.org/ns/shacl#resultPath>
+                    nsd:damageImpact ;
+            <http://www.w3.org/ns/shacl#resultSeverity>
+                    <http://www.w3.org/ns/shacl#Violation> ;
+            <http://www.w3.org/ns/shacl#sourceConstraintComponent>
+                    <http://www.w3.org/ns/shacl#MinExclusiveConstraintComponent> ;
+            <http://www.w3.org/ns/shacl#sourceShape>
+                    <https://bim-sis.de/ontology/shacl/dv#Intensity2-5> ;
+            <http://www.w3.org/ns/shacl#value>
+                    "1"^^xsd:int
+          ] ;
+  <http://www.w3.org/ns/shacl#result>
+          [ a       <http://www.w3.org/ns/shacl#ValidationResult> ;
+            <http://www.w3.org/ns/shacl#focusNode>
+                    <https://www.bim-sis.de/ontology/abox/inst#93663b3e-5c43-47f5-8d40-be830926ceaa> ;
+            <http://www.w3.org/ns/shacl#resultMessage>
+                    "Does not have value at property 3" ;
+            <http://www.w3.org/ns/shacl#resultPath>
+                    nsd:damageImpact ;
+            <http://www.w3.org/ns/shacl#resultSeverity>
+                    <http://www.w3.org/ns/shacl#Violation> ;
+            <http://www.w3.org/ns/shacl#sourceConstraintComponent>
+                    <http://www.w3.org/ns/shacl#EqualsConstraintComponent> ;
+            <http://www.w3.org/ns/shacl#sourceShape>
+                    <https://bim-sis.de/ontology/shacl/dv#Intensity3> ;
+            <http://www.w3.org/ns/shacl#value>
+                    "2"^^xsd:int
+          ] ;
+  <http://www.w3.org/ns/shacl#result>
+          [ a       <http://www.w3.org/ns/shacl#ValidationResult> ;
+            <http://www.w3.org/ns/shacl#focusNode>
+                    <https://www.bim-sis.de/ontology/abox/inst#de4a766e-a302-42ed-8b2c-b148cc6eaab7> ;
+            <http://www.w3.org/ns/shacl#resultMessage>
+                    "Does not have value at property 2" ;
+            <http://www.w3.org/ns/shacl#resultPath>
+                    nsd:damageImpact ;
+            <http://www.w3.org/ns/shacl#resultSeverity>
+                    <http://www.w3.org/ns/shacl#Violation> ;
+            <http://www.w3.org/ns/shacl#sourceConstraintComponent>
+                    <http://www.w3.org/ns/shacl#EqualsConstraintComponent> ;
+            <http://www.w3.org/ns/shacl#sourceShape>
+                    <https://bim-sis.de/ontology/shacl/dv#Intensity2> ;
+            <http://www.w3.org/ns/shacl#value>
+                    "3"^^xsd:int
+          ] ;
+  <http://www.w3.org/ns/shacl#result>
+          [ a       <http://www.w3.org/ns/shacl#ValidationResult> ;
+            <http://www.w3.org/ns/shacl#focusNode>
+                    <https://www.bim-sis.de/ontology/abox/inst#de4a766e-a302-42ed-8b2c-b148cc6eaab7> ;
+            <http://www.w3.org/ns/shacl#resultMessage>
+                    "Does not have value at property 3" ;
+            <http://www.w3.org/ns/shacl#resultPath>
+                    nsd:damageImpact ;
+            <http://www.w3.org/ns/shacl#resultSeverity>
+                    <http://www.w3.org/ns/shacl#Violation> ;
+            <http://www.w3.org/ns/shacl#sourceConstraintComponent>
+                    <http://www.w3.org/ns/shacl#EqualsConstraintComponent> ;
+            <http://www.w3.org/ns/shacl#sourceShape>
+                    <https://bim-sis.de/ontology/shacl/dv#Intensity3> ;
+            <http://www.w3.org/ns/shacl#value>
+                    "3"^^xsd:int
+          ] ;
+  <http://www.w3.org/ns/shacl#result>
+          [ a       <http://www.w3.org/ns/shacl#ValidationResult> ;
+            <http://www.w3.org/ns/shacl#focusNode>
+                    <https://www.bim-sis.de/ontology/abox/inst#93663b3e-5c43-47f5-8d40-be830926ceaa> ;
+            <http://www.w3.org/ns/shacl#resultMessage>
+                    "Does not have value at property 5" ;
+            <http://www.w3.org/ns/shacl#resultPath>
+                    nsd:damageImpact ;
+            <http://www.w3.org/ns/shacl#resultSeverity>
+                    <http://www.w3.org/ns/shacl#Violation> ;
+            <http://www.w3.org/ns/shacl#sourceConstraintComponent>
+                    <http://www.w3.org/ns/shacl#EqualsConstraintComponent> ;
+            <http://www.w3.org/ns/shacl#sourceShape>
+                    <https://bim-sis.de/ontology/shacl/dv#Intensity5> ;
+            <http://www.w3.org/ns/shacl#value>
+                    "2"^^xsd:int
+          ]
+] .

@@ -1,0 +1,518 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix rm: <https://bim-sis.de/ontology/shacl/rm#> .
+@prefix nsd: <https://w3id.org/nsd#> .
+@prefix srmo: <https://www.bim-sis.de/ontology/damage/srmo#> .
+@prefix dot: <https://w3id.org/dot#> .
+
+#
+#--SHACL-Functions
+#
+rm:RandomURI
+	a sh:SPARQLFunction ;
+	rdfs:comment "Creates a new URI with a Random String" ;
+	sh:parameter [
+	    sh:path rm:prefix;
+	    sh:description "Prefix that will be attached to the random URI"
+	] ;
+	sh:select """
+		SELECT  IRI(CONCAT($prefix, STR(NOW()), STR(CEIL((RAND() * 10000)))))
+		WHERE {
+		}
+	"""
+.
+#
+#--Crack-Class-Node--#
+#
+nsd:SingleCrack
+	a rdfs:Class , sh:NodeShape ;
+	sh:rule rm:Plastering ;
+	sh:rule rm:CrackFillingDI2-3 ;
+	sh:rule rm:BracketsDI4-5 ;
+	sh:rule rm:PressingDI4-5 ;
+	sh:rule rm:NeedlingDI4-5 ;
+	sh:rule rm:AnchorDI4-5 ;
+	sh:rule rm:StoneComplementDI4-5 ;
+	sh:rule rm:StoneReplacementDI5 ;
+.
+nsd:Fracture
+	a rdfs:Class , sh:NodeShape ;
+	sh:rule rm:Plastering ;
+   	sh:rule rm:CrackFillingDI3 ;
+    sh:rule rm:BracketsDI4 ;
+    sh:rule rm:PressingDI4 ;
+    sh:rule rm:NeedlingDI4 ;
+    sh:rule rm:AnchorDI4 ;
+    sh:rule rm:StoneComplementDI4 ;
+.
+nsd:StarCrack
+	a rdfs:Class , sh:NodeShape ;
+	sh:rule rm:Plastering ;	
+	sh:rule rm:CrackFillingDI2-3 ;
+	sh:rule rm:BracketsDI4-5 ;
+	sh:rule rm:PressingDI4-5 ;
+	sh:rule rm:NeedlingDI4-5 ;
+	sh:rule rm:AnchorDI4-5 ;
+	sh:rule rm:StoneComplementDI4-5 ;
+	sh:rule rm:StoneReplacementDI5 ;
+.
+nsd:Craquele
+	a rdfs:Class , sh:NodeShape ;
+	sh:rule rm:Plastering ;	
+	sh:rule rm:CrackFillingDI2 ;
+.
+nsd:HairCrack
+	a rdfs:Class , sh:NodeShape ;
+	sh:rule rm:Plastering ;	
+	sh:rule rm:CrackFillingDI2 ;
+.
+nsd:Splitting
+	a rdfs:Class , sh:NodeShape ;
+	sh:rule rm:Plastering ;
+    sh:rule rm:BracketsDI5 ;
+    sh:rule rm:PressingDI5 ;
+    sh:rule rm:NeedlingDI5 ;
+    sh:rule rm:AnchorDI5 ;
+    sh:rule rm:StoneReplacementDI5 ;
+.
+#
+#--BiologicalColonisation-Class-Node--#
+#
+nsd:Plants
+	a rdfs:Class , sh:NodeShape ;
+	sh:rule rm:Plastering ;	
+	sh:rule rm:CleaningWet2-5 ;
+	sh:rule rm:CleaningDry2-5 ;
+	sh:rule rm:CleaningFlame2-5 ;
+	sh:rule rm:CleaningBiozide2-5 ;
+.
+nsd:Alga
+	a rdfs:Class , sh:NodeShape ;
+	sh:rule rm:Plastering ;	
+	sh:rule rm:CleaningWet2-5 ;
+	sh:rule rm:CleaningDry2-5 ;
+	sh:rule rm:PreventiveMaintenance4-5 ;
+	sh:rule rm:PreventiveBiozide4-5 ;
+	sh:rule rm:CleaningFlame2-5 ;
+    sh:rule rm:CleaningBiozide2-5 ;
+.
+nsd:Lichen
+	a rdfs:Class , sh:NodeShape ;
+	sh:rule rm:Plastering ;	
+	sh:rule rm:CleaningWet2-5 ;
+	sh:rule rm:CleaningDry2-5 ;
+	sh:rule rm:PreventiveMaintenance4-5 ;
+	sh:rule rm:PreventiveBiozide4-5 ;
+	sh:rule rm:CleaningFlame2-5 ;
+    sh:rule rm:CleaningBiozide2-5 ;
+.
+nsd:Moss
+	a rdfs:Class , sh:NodeShape ;
+	sh:rule rm:Plastering ;	
+	sh:rule rm:CleaningWet2-5 ;
+	sh:rule rm:CleaningDry2-5 ;
+	sh:rule rm:PreventiveMaintenance4-5 ;
+	sh:rule rm:PreventiveBiozide4-5 ;
+	sh:rule rm:CleaningFlame2-5 ;
+    sh:rule rm:CleaningBiozide2-5 ;
+.
+nsd:Mould
+	a rdfs:Class , sh:NodeShape ;
+	sh:rule rm:Plastering ;	
+	sh:rule rm:CleaningWet2-5 ;
+	sh:rule rm:CleaningDry2-5 ;
+	sh:rule rm:PreventiveMaintenance4-5 ;
+	sh:rule rm:PreventiveBiozide4-5 ;
+	sh:rule rm:CleaningFlame2-5 ;
+    sh:rule rm:CleaningBiozide2-5 ;
+.
+#
+#--Assignment-Rules--#
+#
+rm:BracketsDI4-5
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 0 ;
+	sh:subject sh:this ;
+	sh:predicate srmo:recommendedRenovationMeasure ;
+	sh:object [ rm:RandomURI ("bracing") ; ] ;
+	sh:condition [
+		sh:property [
+			sh:path nsd:damageImpact ;
+			sh:minInclusive 4 ;
+			sh:maxInclusive 5 ;
+		] ;
+	]
+.
+rm:BracketsDI4
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 0 ;
+	sh:subject sh:this ;
+	sh:predicate srmo:recommendedRenovationMeasure ;
+	sh:object [ rm:RandomURI ("bracing") ; ] ;
+	sh:condition [
+		sh:property [
+			sh:path nsd:damageImpact ;
+			sh:minInclusive 4 ;
+			sh:maxInclusive 4 ;
+		] ;
+	]
+.
+rm:BracketsDI5
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 0 ;
+	sh:subject sh:this ;
+	sh:predicate srmo:recommendedRenovationMeasure ;
+	sh:object [ rm:RandomURI ("bracing") ; ] ;
+	sh:condition [
+		sh:property [
+			sh:path nsd:damageImpact ;
+			sh:minInclusive 5 ;
+			sh:maxInclusive 5 ;
+		] ;
+	]
+.
+rm:PressingDI4-5
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 0 ;
+	sh:subject sh:this ;
+	sh:predicate srmo:recommendedRenovationMeasure ;
+	sh:object [ rm:RandomURI ("pressing") ; ] ;
+	sh:condition [
+    		sh:property [
+    			sh:path nsd:damageImpact ;
+    			sh:minInclusive 4 ;
+    			sh:maxInclusive 5 ;
+    		] ;
+    	]
+.
+rm:PressingDI4
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 0 ;
+	sh:subject sh:this ;
+	sh:predicate srmo:recommendedRenovationMeasure ;
+	sh:object [ rm:RandomURI ("pressing") ; ] ;
+	sh:condition [
+    		sh:property [
+    			sh:path nsd:damageImpact ;
+    			sh:minInclusive 4 ;
+    			sh:maxInclusive 4 ;
+    		] ;
+    	]
+.
+rm:PressingDI5
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 0 ;
+	sh:subject sh:this ;
+	sh:predicate srmo:recommendedRenovationMeasure ;
+	sh:object [ rm:RandomURI ("pressing") ; ] ;
+	sh:condition [
+    		sh:property [
+    			sh:path nsd:damageImpact ;
+    			sh:minInclusive 5 ;
+    			sh:maxInclusive 5 ;
+    		] ;
+    	]
+.
+rm:NeedlingDI4-5
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 0 ;
+	sh:subject sh:this ;
+	sh:predicate srmo:recommendedRenovationMeasure ;
+	sh:object [ rm:RandomURI ("needling") ; ] ;
+	sh:condition [
+    		sh:property [
+    			sh:path nsd:damageImpact ;
+    			sh:minInclusive 4 ;
+    			sh:maxInclusive 5 ;
+    		] ;
+    	]
+.
+rm:NeedlingDI4
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 0 ;
+	sh:subject sh:this ;
+	sh:predicate srmo:recommendedRenovationMeasure ;
+	sh:object [ rm:RandomURI ("needling") ; ] ;
+	sh:condition [
+    		sh:property [
+    			sh:path nsd:damageImpact ;
+    			sh:minInclusive 4 ;
+    			sh:maxInclusive 4 ;
+    		] ;
+    	]
+.
+rm:NeedlingDI5
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 0 ;
+	sh:subject sh:this ;
+	sh:predicate srmo:recommendedRenovationMeasure ;
+	sh:object [ rm:RandomURI ("needling") ; ] ;
+	sh:condition [
+    		sh:property [
+    			sh:path nsd:damageImpact ;
+    			sh:minInclusive 5 ;
+    			sh:maxInclusive 5 ;
+    		] ;
+    	]
+.
+rm:AnchorDI4
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 0 ;
+	sh:subject sh:this ;
+	sh:predicate srmo:recommendedRenovationMeasure ;
+	sh:object [ rm:RandomURI ("anchoring") ; ] ;
+	sh:condition [
+    		sh:property [
+    			sh:path nsd:damageImpact ;
+    			sh:minInclusive 4 ;
+    			sh:maxInclusive 4 ;
+    		] ;
+    	]
+.
+rm:AnchorDI4-5
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 0 ;
+	sh:subject sh:this ;
+	sh:predicate srmo:recommendedRenovationMeasure ;
+	sh:object [ rm:RandomURI ("anchoring") ; ] ;
+	sh:condition [
+    		sh:property [
+    			sh:path nsd:damageImpact ;
+    			sh:minInclusive 4 ;
+    			sh:maxInclusive 5 ;
+    		] ;
+    	]
+.
+rm:AnchorDI5
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 0 ;
+	sh:subject sh:this ;
+	sh:predicate srmo:recommendedRenovationMeasure ;
+	sh:object [ rm:RandomURI ("anchoring") ; ] ;
+	sh:condition [
+    		sh:property [
+    			sh:path nsd:damageImpact ;
+    			sh:minInclusive 5 ;
+    			sh:maxInclusive 5 ;
+    		] ;
+    	]
+.
+rm:CrackFillingDI2
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 0 ;
+	sh:subject sh:this ;
+	sh:predicate srmo:recommendedRenovationMeasure ;
+	sh:object [ rm:RandomURI ("crackfilling") ; ] ;
+	sh:condition [
+		sh:property [
+			sh:path nsd:damageImpact ;
+			sh:minInclusive 2 ;
+			sh:maxInclusive 2 ;
+		] ;
+	]
+.
+rm:CrackFillingDI3
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 0 ;
+	sh:subject sh:this ;
+	sh:predicate srmo:recommendedRenovationMeasure ;
+	sh:object [ rm:RandomURI ("crackfilling") ; ] ;
+	sh:condition [
+		sh:property [
+			sh:path nsd:damageImpact ;
+			sh:minInclusive 3 ;
+			sh:maxInclusive 3 ;
+		] ;
+	]
+.
+rm:CrackFillingDI2-3
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 0 ;
+	sh:subject sh:this ;
+	sh:predicate srmo:recommendedRenovationMeasure ;
+	sh:object [ rm:RandomURI ("crackfilling") ; ] ;
+	sh:condition [
+		sh:property [
+			sh:path nsd:damageImpact ;
+			sh:minInclusive 2 ;
+			sh:maxInclusive 3 ;
+		] ;
+	]
+.
+rm:StoneComplementDI4-5
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 0 ;
+	sh:subject sh:this ;
+	sh:predicate srmo:recommendedRenovationMeasure ;
+	sh:object [ rm:RandomURI ("stonecomplement") ; ] ;
+	sh:condition [
+		sh:property [
+			sh:path nsd:damageImpact ;
+			sh:minInclusive 4 ;
+			sh:maxInclusive 5 ;
+		] ;
+	]
+.
+rm:StoneComplementDI4
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 0 ;
+	sh:subject sh:this ;
+	sh:predicate srmo:recommendedRenovationMeasure ;
+	sh:object [ rm:RandomURI ("stonecomplement") ; ] ;
+	sh:condition [
+		sh:property [
+			sh:path nsd:damageImpact ;
+			sh:minInclusive 4 ;
+			sh:maxInclusive 4 ;
+		] ;
+	]
+.
+rm:StoneComplementDI5
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 0 ;
+	sh:subject sh:this ;
+	sh:predicate srmo:recommendedRenovationMeasure ;
+	sh:object [ rm:RandomURI ("stonecomplement") ; ] ;
+	sh:condition [
+		sh:property [
+			sh:path nsd:damageImpact ;
+			sh:minInclusive 5 ;
+			sh:maxInclusive 5 ;
+		] ;
+	]
+.
+rm:StoneReplacementDI5
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 0 ;
+	sh:subject sh:this ;
+	sh:predicate srmo:recommendedRenovationMeasure ;
+	sh:object [ rm:RandomURI ("stonereplacement") ; ] ;
+	sh:condition [
+		sh:property [
+			sh:path nsd:damageImpact ;
+			sh:minInclusive 5 ;
+			sh:maxInclusive 5 ;
+		] ;
+	]
+.
+rm:CleaningWet2-5
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 0 ;
+	sh:subject sh:this ;
+	sh:predicate srmo:recommendedRenovationMeasure ;
+	sh:object [ rm:RandomURI ("wetcleaning") ; ] ;
+	#sh:condition [
+	#	sh:property [
+	#		sh:path nsd:damageImpact ;
+	#		sh:minInclusive 2 ;
+	#		sh:maxInclusive 5 ;
+	#	] ;
+	#]
+.
+rm:CleaningDry2-5
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 0 ;
+	sh:subject sh:this ;
+	sh:predicate srmo:recommendedRenovationMeasure ;
+	sh:object [ rm:RandomURI ("drycleaning") ; ] ;
+	sh:condition [
+		sh:property [
+			sh:path nsd:damageImpact ;
+			sh:minInclusive 2 ;
+			sh:maxInclusive 5 ;
+		] ;
+	]
+.
+rm:CleaningFlame2-5
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 0 ;
+	sh:subject sh:this ;
+	sh:predicate srmo:recommendedRenovationMeasure ;
+	sh:object [ rm:RandomURI ("flamecleaning") ; ] ;
+	sh:condition [
+		sh:property [
+			sh:path nsd:damageImpact ;
+			sh:minInclusive 2 ;
+			sh:maxInclusive 5 ;
+		] ;
+	]
+.
+rm:CleaningBiozide2-5
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 0 ;
+	sh:subject sh:this ;
+	sh:predicate srmo:recommendedRenovationMeasure ;
+	sh:object [ rm:RandomURI ("biozidecleaning") ; ] ;
+	sh:condition [
+		sh:property [
+			sh:path nsd:damageImpact ;
+			sh:minInclusive 2 ;
+			sh:maxInclusive 5 ;
+		] ;
+	]
+.
+
+rm:PreventiveMaintenance4-5
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 0 ;
+	sh:subject sh:this ;
+	sh:predicate srmo:recommendedRenovationMeasure ;
+	sh:object [ rm:RandomURI ("maintenance") ; ] ;
+	sh:condition [
+		sh:property [
+			sh:path nsd:damageImpact ;
+			sh:minInclusive 4 ;
+			sh:maxInclusive 5 ;
+		] ;
+	]
+.
+rm:PreventiveBiozide4-5
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 0 ;
+	sh:subject sh:this ;
+	sh:predicate srmo:recommendedRenovationMeasure ;
+	sh:object [ rm:RandomURI ("biozidepreven") ; ] ;
+	sh:condition [
+		sh:property [
+			sh:path nsd:damageImpact ;
+			sh:minInclusive 4 ;
+			sh:maxInclusive 5 ;
+		] ;
+	]
+.
+rm:Plastering
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 0 ;
+	sh:subject sh:this ;
+	sh:predicate srmo:recommendedRenovationMeasure ;
+	sh:object [ rm:RandomURI ("plastering") ; ] ;
+.

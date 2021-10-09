@@ -1,0 +1,8 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://ex.org/alhak/data/D2#nsdDamage2>
+        <https://www.bim-sis.de/ontology/damage/srmo#recommendedRenovationMeasure>
+                <maintenance2021-08-19T11:39:09.737+02:009978.0e0> , <wetcleaning2021-08-19T11:39:09.744+02:003420.0e0> , <drycleaning2021-08-19T11:39:09.740+02:009178.0e0> , <plastering2021-08-19T11:39:09.745+02:007813.0e0> , <biozidepreven2021-08-19T11:39:09.733+02:005639.0e0> , <flamecleaning2021-08-19T11:39:09.729+02:007508.0e0> , <biozidecleaning2021-08-19T11:39:09.664+02:005050.0e0> .

@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f854a18d-5317-4f6c-bc90-ae7165cb4812" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DOTknow-gui/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/ResourceConfiguration.json" beforeDir="false" afterPath="$PROJECT_DIR$/DOTknow-gui/target/classes/ResourceConfiguration.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/com/intellij/uiDesigner/core/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/MainGUI$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/MainGUI$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/MainGUI$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/MainGUI$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/MainGUI$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/MainGUI$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/MainGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/MainGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/ComponentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/ComponentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/anamnesis/construction/ConstructionOntologyDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/anamnesis/construction/ConstructionOntologyDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/anamnesis/damage/AggregateDamageDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/anamnesis/damage/AggregateDamageDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/icdd/DocumentSelectionDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/icdd/DocumentSelectionDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/menu/file/newproject/NewProjectDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/menu/file/newproject/NewProjectDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/configuration/resources/ResourceConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/configuration/resources/ResourceConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/src/test/java/de/tud/cib/dotknow/icdd/activedata/treemodel/ICDDTreeCreatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/DOTknow-icdd/src/test/java/de/tud/cib/dotknow/icdd/activedata/treemodel/ICDDTreeCreatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/target/test-classes/de/tud/cib/dotknow/icdd/activedata/treemodel/ICDDTreeCreatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/DOTknow-icdd/target/test-classes/de/tud/cib/dotknow/icdd/activedata/treemodel/ICDDTreeCreatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/DOTknow-construction-ontology/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/DOTknow-construction-ontology/src/main/java/de/tud/dotknow/ontology/construction/conversion/AnnotationConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/DOTknow-ontology/src/main/java/de/tud/dotknow/ontology/construction/conversion/AnnotationConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/DOTknow-construction-ontology/src/main/java/de/tud/dotknow/ontology/construction/conversion/IFCToOWLConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/DOTknow-ontology/src/main/java/de/tud/dotknow/ontology/construction/conversion/IFCToOWLConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/DOTknow-construction-ontology/src/test/java/de/tud/dotknow/ontology/construction/conversion/AnnotationConverterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/DOTknow-ontology/src/main/test/de/tud/dotknow/ontology/construction/conversion/AnnotationConverterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/DOTknow-construction-ontology/src/test/java/de/tud/dotknow/ontology/construction/conversion/IFCToOWLConverterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/DOTknow-ontology/src/main/test/de/tud/dotknow/ontology/construction/conversion/IFCToOWLConverterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/DOTknow-construction-ontology/src/test/resources/20200121_Promnitz_Stones.ifc" beforeDir="false" afterPath="$PROJECT_DIR$/DOTknow-ontology/src/main/test/resources/20200121_Promnitz_Stones.ifc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/DOTknow-construction-ontology/src/test/resources/output/output.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/DOTknow-ontology/src/main/test/resources/output/output.ttl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/DOTknow-construction-ontology/src/test/resources/testOntology.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/DOTknow-ontology/src/main/test/resources/testOntology.ttl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/DOTknow-construction-ontology/target/classes/de/tud/dotknow/ontology/construction/conversion/AnnotationConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/DOTknow-construction-ontology/target/classes/de/tud/dotknow/ontology/construction/conversion/IFCToOWLConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/DOTknow-construction-ontology/target/test-classes/20200121_Promnitz_Stones.ifc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/DOTknow-construction-ontology/target/test-classes/de/tud/dotknow/ontology/construction/conversion/AnnotationConverterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/DOTknow-construction-ontology/target/test-classes/de/tud/dotknow/ontology/construction/conversion/IFCToOWLConverterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/DOTknow-construction-ontology/target/test-classes/output/output.ttl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/DOTknow-construction-ontology/target/test-classes/testOntology.ttl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DOTknow-ontology/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/src/main/test/java/de/tud/dotknow/ontology/reasoner/OWLReasonerManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/DOTknow-ontology/src/main/test/de/tud/dotknow/ontology/reasoner/OWLReasonerManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/src/main/test/java/de/tud/dotknow/ontology/reasoner/SHACLReasonerManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/DOTknow-ontology/src/main/test/de/tud/dotknow/ontology/reasoner/SHACLReasonerManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/DOTknow-ifctools/target/" />
+    <ignored path="$PROJECT_DIR$/DOTknow-icdd/target/" />
+    <ignored path="$PROJECT_DIR$/DOTknow-ontology/target/" />
+    <ignored path="$PROJECT_DIR$/DOTknow-ontology/DOTknow-construction-ontology/target/" />
+    <ignored path="$PROJECT_DIR$/DOTknow-annotation/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/DOTknow-gui/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="DamageAssessmentSystem" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DOTknow-ontology/src/main/test/de/tud/dotknow/ontology/construction/conversion/IFCToOWLConverterTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DOTknow-ontology/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Singleton" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>SHACLConfigList</find>
+      <find>reasonre</find>
+      <find>onReasonTherapy</find>
+      <find>onReason</find>
+      <find>rec</find>
+      <find>CleaningWet2-5</find>
+      <find>onReasonTh</find>
+      <find>listModel</find>
+      <find>flam</find>
+      <find>plast</find>
+      <find>moss</find>
+      <find>reasonO</find>
+      <find>Moss</find>
+      <find>CleaningWet</find>
+      <find>wet</find>
+      <find>reasonTherapy</find>
+      <find>damageimpact</find>
+      <find>test</find>
+      <find>recom</find>
+      <find>reasonSHacl</find>
+      <find>wetClean</find>
+      <find>new DefaultTable</find>
+      <find>classificationD</find>
+      <find>domainComboBox</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/DOTknow-ontology/DOTknow-construction-ontology/pom.xml" />
+        <option value="$PROJECT_DIR$/DOTknow-ontology/src/main/test/java/de/tud/dotknow/ontology/construction/conversion/AnnotationConverterTest.java" />
+        <option value="$PROJECT_DIR$/DOTknow-ontology/src/main/test/de/tud/dotknow/ontology/construction/conversion/AnnotationConverterTest.java" />
+        <option value="$PROJECT_DIR$/DOTknow-icdd/src/test/java/de/tud/cib/dotknow/icdd/activedata/treemodel/ICDDTreeCreatorTest.java" />
+        <option value="$PROJECT_DIR$/DOTknow-ontology/pom.xml" />
+        <option value="$PROJECT_DIR$/DOTknow-gui/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="DOTknow" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="DOTknow" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-502" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectId" id="1t20vo3phhLOxVuHolBtiKMLa1g" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DamageAssessmentSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BIMsage" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="104" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="301" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/DOTknow-ontology/src/main/test/de/tud/dotknow/ontology/reasoner" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Arbeit\WorkspaceCIB\DOTKnow\DOTknow-ontology\src\main\test\de\tud\dotknow\ontology\" />
+      <recent name="D:\Arbeit\WorkspaceCIB\DOTKnow\DOTknow-ontology\src\main\test\java\de\tud\dotknow\ontology\" />
+      <recent name="M:\workspaceHAM\DOTKnow\DOTknow-ontology\src\main\test\resources\output\" />
+      <recent name="M:\workspaceHAM\DOTKnow\DOTknow-ontology\src\main\test\resources\output\OWLOutput" />
+      <recent name="C:\Workspace\Java-Workspace\DOTKnow\DOTknow-gui\src\main\resources\ontology\" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="de.tud.dotknow.ontology.construction.conversion" />
+      <recent name="de.tud.cib.dotknow.icdd.utility.filter" />
+      <recent name="de.tud.cib.dotknow.gui.configuration.configurationdata" />
+      <recent name="de.tud.cib.dotknow.ifc" />
+      <recent name="de.tud.cib.dotknow.annotation" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="de.tud.cib.dotknow.gui.components.filter.sparqlquery" />
+      <recent name="de.tud.cib.dotknow.icdd.utility.filter" />
+      <recent name="de.tud.dotknow.ontology.namespaces.tbox" />
+      <recent name="de.tud.cib.dotknow.ifc.filter" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Arbeit\WorkspaceCIB\DOTKnow\DOTknow-ontology\src\main\test\resources" />
+      <recent name="D:\Arbeit\WorkspaceCIB\DOTKnow\DOTknow-ontology\src\main\test\resources\output" />
+      <recent name="D:\Arbeit\WorkspaceCIB\DOTKnow\DOTknow-ontology\src\main\test\java\de\tud\dotknow\ontology\construction\conversion" />
+      <recent name="D:\Arbeit\WorkspaceCIB\DOTKnow\DOTknow-ontology\src\main\java\de\tud\dotknow\ontology\construction\conversion" />
+      <recent name="M:\workspaceHAM\DOTKnow\DOTknow-gui\src\main\resources\configuration" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MainGUI">
+    <configuration name="MainGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.tud.cib.dotknow.gui.MainGUI" />
+      <module name="DOTknow-gui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.tud.cib.dotknow.gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActiveICDDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DOTknow-icdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.tud.cib.dotknow.icdd.activedata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.tud.cib.dotknow.icdd.activedata" />
+      <option name="MAIN_CLASS_NAME" value="de.tud.cib.dotknow.icdd.activedata.ActiveICDDTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnnotationConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DOTknow-ontology" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.tud.dotknow.ontology.construction.conversion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.tud.dotknow.ontology.construction.conversion" />
+      <option name="MAIN_CLASS_NAME" value="de.tud.dotknow.ontology.construction.conversion.AnnotationConverterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ICDDTreeCreatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DOTknow-icdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.tud.cib.dotknow.icdd.activedata.treemodel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.tud.cib.dotknow.icdd.activedata.treemodel" />
+      <option name="MAIN_CLASS_NAME" value="de.tud.cib.dotknow.icdd.activedata.treemodel.ICDDTreeCreatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ICDDTreeCreatorTest.testCreateTreeModel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DOTknow-icdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.tud.cib.dotknow.icdd.activedata.treemodel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.tud.cib.dotknow.icdd.activedata.treemodel" />
+      <option name="MAIN_CLASS_NAME" value="de.tud.cib.dotknow.icdd.activedata.treemodel.ICDDTreeCreatorTest" />
+      <option name="METHOD_NAME" value="testCreateTreeModel" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainGUI" />
+        <item itemvalue="JUnit.ICDDTreeCreatorTest.testCreateTreeModel" />
+        <item itemvalue="JUnit.ICDDTreeCreatorTest" />
+        <item itemvalue="JUnit.ActiveICDDTest" />
+        <item itemvalue="JUnit.AnnotationConverterTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\alhak\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f854a18d-5317-4f6c-bc90-ae7165cb4812" name="Default Changelist" comment="" />
+      <created>1614161065500</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614161065500</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Damage Options in Selection Dialog are now loaded from the ontologies.">
+      <created>1621959708225</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621959708225</updated>
+    </task>
+    <task id="LOCAL-00002" summary="CreateDamageDialog does read TBox-Classes, properties and can configure aggregations.">
+      <created>1623174935281</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1623174935281</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Damage Aggregations are now assigned to created damage individuals.">
+      <created>1625503049007</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1625503049007</updated>
+    </task>
+    <task id="LOCAL-00004" summary="started work on function for interaction with damage table to modify already defined damage elements / areas.">
+      <created>1625584062511</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1625584062511</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Modify-Function now reads an individual (through the class DamageStatus) and changes the DOT-Type Combobox accordingly to its actual type.">
+      <created>1626279959959</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1626279959959</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Modify-Function now loads the correct damage domain from the selected damage.">
+      <created>1626804419590</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1626804419590</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Modify Function of the damage table loads all damage combo boxes and the properties.">
+      <created>1627486185063</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1627486185063</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Reasoning-Function finished. Bug regarding Checkbox-Selections remains.">
+      <created>1628526677199</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1628526677199</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Diagnosis-Module finished. Reasoning function of Therapy-Module partly finished (ruleset-groups need to be added to Config).">
+      <created>1628695268013</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1628695268013</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Basic-SPARQL Filter Module finished. Predefined-Filter Module prepared.">
+      <created>1630876427726</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1630876427726</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SHACLReasonerManagerTest_testRenovationReasoning_(1) - 2021.08.19 at 11h 39m 10s.xml">
+      <configuration name="SHACLReasonerManagerTest.testRenovationReasoning (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SHACLReasonerManagerTest_testRenovationClassification_(1) - 2021.08.19 at 11h 40m 13s.xml">
+      <configuration name="SHACLReasonerManagerTest.testRenovationClassification (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotationConverterTest - 2021.10.09 at 17h 20m 44s.xml">
+      <configuration name="AnnotationConverterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotationConverterTest - 2021.10.09 at 17h 23m 08s.xml">
+      <configuration name="AnnotationConverterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotationConverterTest - 2021.10.09 at 17h 23m 58s.xml">
+      <configuration name="AnnotationConverterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotationConverterTest - 2021.10.09 at 17h 24m 32s.xml">
+      <configuration name="AnnotationConverterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotationConverterTest - 2021.10.09 at 17h 24m 46s.xml">
+      <configuration name="AnnotationConverterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ActiveICDDTest - 2021.10.09 at 19h 43m 58s.xml">
+      <configuration name="ActiveICDDTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ICDDTreeCreatorTest - 2021.10.09 at 19h 44m 10s.xml">
+      <configuration name="ICDDTreeCreatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ICDDTreeCreatorTest_testCreateTreeModel - 2021.10.09 at 19h 45m 06s.xml">
+      <configuration name="ICDDTreeCreatorTest.testCreateTreeModel" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Damage Options in Selection Dialog are now loaded from the ontologies." />
+    <MESSAGE value="CreateDamageDialog does read TBox-Classes, properties and can configure aggregations." />
+    <MESSAGE value="Damage Aggregations are now assigned to created damage individuals." />
+    <MESSAGE value="started work on function for interaction with damage table to modify already defined damage elements / areas." />
+    <MESSAGE value="Modify-Function now reads an individual (through the class DamageStatus) and changes the DOT-Type Combobox accordingly to its actual type." />
+    <MESSAGE value="Modify-Function now loads the correct damage domain from the selected damage." />
+    <MESSAGE value="Modify Function of the damage table loads all damage combo boxes and the properties." />
+    <MESSAGE value="Reasoning-Function finished. Bug regarding Checkbox-Selections remains." />
+    <MESSAGE value="Diagnosis-Module finished. Reasoning function of Therapy-Module partly finished (ruleset-groups need to be added to Config)." />
+    <MESSAGE value="Basic-SPARQL Filter Module finished. Predefined-Filter Module prepared." />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic-SPARQL Filter Module finished. Predefined-Filter Module prepared." />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="infModel" />
+        <watch expression="((ICDDLinkElement)((ICDDhasLinkElement)link.hasLinkElement.toArray()[0]).linkElement).hasIdentifier" custom="icdd.beans.ICDDLinkElement,icdd.beans.ICDDLink.ICDDhasLinkElement" />
+      </configuration>
+      <configuration name="Application">
+        <watch expression="((IndividualImpl)damage).enhGraph" custom="org.apache.jena.ontology.impl.IndividualImpl" />
+        <watch expression="statement" />
+        <watch expression="statement" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/DOTknow-ontology/DOTknow-construction-ontology/src/main/java/de/tud/dotknow/ontology/construction/conversion/IFCToOWLConverter.java" />
+    <entry file="file://$PROJECT_DIR$/DOTknow-ontology/DOTknow-construction-ontology/src/main/java/de/tud/dotknow/ontology/construction/conversion/AnnotationConverter.java" />
+    <entry file="file://$PROJECT_DIR$/DOTknow-ontology/DOTknow-construction-ontology/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/DOTknow-ontology/src/main/test/resources/20200121_Promnitz_Stones.ifc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DOTknow-ontology/src/main/test/resources/output/output.ttl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DOTknow-ontology/src/main/java/de/tud/dotknow/ontology/construction/conversion/IFCToOWLConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DOTknow-ontology/src/main/java/de/tud/dotknow/ontology/construction/conversion/AnnotationConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DOTknow-ontology/src/main/test/de/tud/dotknow/ontology/reasoner/OWLReasonerManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DOTknow-ontology/src/main/test/de/tud/dotknow/ontology/reasoner/SHACLReasonerManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DOTknow-ontology/src/main/test/de/tud/dotknow/ontology/construction/conversion/AnnotationConverterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DOTknow-icdd/src/test/java/de/tud/cib/dotknow/icdd/utility/filter/ICDDFilterTest.java" />
+    <entry file="file://$PROJECT_DIR$/DOTknow-icdd/src/test/java/de/tud/cib/dotknow/icdd/activedata/ActiveICDDTest.java" />
+    <entry file="file://$PROJECT_DIR$/DOTknow-icdd/src/test/java/de/tud/cib/dotknow/icdd/activedata/treemodel/ICDDTreeCreatorTest.java" />
+    <entry file="file://$PROJECT_DIR$/DOTknow-ontology/DOTknow-ontology.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DOTknow-annotation/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/DOTknow-icdd/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/configuration/resources/ResourceConfiguration.java" />
+    <entry file="file://$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/MainGUI.java" />
+    <entry file="file://$PROJECT_DIR$/DOTknow-gui/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/DOTknow-gui/src/main/resources/ResourceConfiguration.json" />
+    <entry file="file://$PROJECT_DIR$/DOTknow-ontology/src/main/test/de/tud/dotknow/ontology/construction/conversion/IFCToOWLConverterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DOTknow-ontology/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11.0.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>annotation</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$/DOTknow-gui" />
+    <option value="install -U" />
+    <option value="install" />
+    <option value="DOTknow-gui install" />
+    <option value="DOTknow-gui clean" />
+  </component>
+</project>

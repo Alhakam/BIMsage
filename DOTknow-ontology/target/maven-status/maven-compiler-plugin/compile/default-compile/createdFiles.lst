@@ -1,0 +1,12 @@
+de\tud\dotknow\ontology\reasoner\OWLReasonerManager.class
+de\tud\dotknow\ontology\sparqlquery\OntQueryTool.class
+de\tud\dotknow\ontology\namespaces\OntologyNamespaces.class
+de\tud\dotknow\ontology\namespaces\tbox\SCO.class
+de\tud\dotknow\ontology\reasoner\SHACLReasonerManager.class
+de\tud\dotknow\ontology\construction\conversion\IFCToOWLConverter.class
+de\tud\dotknow\ontology\namespaces\tbox\BOT.class
+de\tud\dotknow\ontology\construction\conversion\AnnotationConverter.class
+de\tud\dotknow\ontology\representation\ActiveOntology.class
+de\tud\dotknow\ontology\namespaces\tbox\DOT.class
+de\tud\dotknow\ontology\namespaces\tbox\BROT.class
+de\tud\dotknow\ontology\reasoner\ReasonerManager.class

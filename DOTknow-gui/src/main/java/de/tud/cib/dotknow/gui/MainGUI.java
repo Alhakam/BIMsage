@@ -67,7 +67,7 @@ import java.util.List;
 
 public class MainGUI {
 
-    private static final String appTitle = "Damage Assessment System";
+    private static final String appTitle = "BIMsage";
     private static final Rectangle frameBounds = new Rectangle(100, 100, 1100, 900);
     public static DefaultTreeModel treeModel;
     //TODO: Predefined Annotations in XML zwischenspeichern

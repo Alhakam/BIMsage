@@ -1,0 +1,25 @@
+@prefix dot: <https://w3id.org/dot#> .
+@prefix inst: <http://ex.org/alhak/data/D1#> .
+@prefix bot: <https://w3id.org/bot#> .
+
+inst:structuralFrameA a bot:Element ;
+	bot:hasSubElement inst:frameA-beam1 , inst:frameA-column1 , inst:frameA-column2 .
+inst:frameA-beam1 a bot:Element .
+inst:frameA-column1 a bot:Element .
+inst:frameA-column2 a bot:Element .
+
+# Method 1
+inst:frameA-column1 dot:hasDamageElement inst:damageElement1 . 
+# Method 2
+inst:frameA-column2 dot:hasDamageArea inst:damageArea2 .
+# Method 3
+inst:frameA-beam1 dot:hasDamageArea inst:damageArea3 .
+inst:damageArea3 dot:aggregatesDamageElement inst:damageElement3-1 , inst:damageElement3-2 .
+# Method 4
+inst:frameA-beam1 dot:hasDamageArea inst:damageArea4 .
+inst:damageArea4 dot:aggregatesDamagePattern inst:damagePattern4 .
+# Method 5
+inst:frameA-column2 dot:hasDamageArea inst:damageArea5 .
+inst:damageArea5 dot:aggregatesDamagePattern inst:damagePattern5 .
+inst:damagePattern5 dot:groupsDamageElement inst:damageElement5-1 .
+inst:damageElement5-1 dot:adjacentDamageElement inst:damageElement5-2 , inst:damageElement5-3 .

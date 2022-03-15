@@ -1,0 +1,281 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix rm: <https://bim-sis.de/ontology/shacl/rm#> .
+@prefix nsd: <https://www.bim-sis.de/ontology/damage/nsd#> .
+@prefix srmo: <https://www.bim-sis.de/ontology/damage/srmo#> .
+@prefix dot: <https://w3id.org/dot#> .
+
+#
+#--Renovation Measures Node Shape--#
+#
+rm:UnclassifiedRenovationMeasure
+	a sh:NodeShape ;
+	sh:targetObjectsOf srmo:recommendedRenovationMeasure ;
+	sh:rule rm:AssignClassCleaningBiozide ,
+	        rm:AssignClassCleaningFlame ,
+	        rm:AssignClassCleaningDry ,
+	        rm:AssignClassCleaningWet ,
+	        rm:AssignClassPlastering ,
+	        rm:AssignClassPrevenBiozide ,
+	        rm:AssignClassPrevenMaint ,
+	        rm:AssignClassCrackFilling ,
+	        rm:AssignClassAnchor ,
+	        rm:AssignClassBrace ,
+	        rm:AssignClassNeedling ,
+	        rm:AssignClassPressing ,
+	        rm:AssignClassStoneComplement ,
+	        #rm:AssignClassNamedIndividual ;
+	        rm:AssignClassStoneReplacement ;
+.
+#
+#--Classification-Rules--#
+#
+rm:AssignClassNamedIndividual
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object owl:NamedIndividual ;
+.
+rm:AssignClassCleaningBiozide
+	a sh:SPARQLRule ;
+	sh:deactivated false ;
+	sh:order 2 ;
+	sh:prefixes srmo: ,
+				rdf: ;
+	sh:construct """
+		PREFIX srmo: <https://www.bim-sis.de/ontology/damage/srmo#>
+		PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+		CONSTRUCT {
+			$this rdf:type srmo:BiocidalTreatment .
+		}
+		WHERE {
+            FILTER (regex(str($this), "biozidecleaning")) .
+		}
+		"""
+.
+rm:AssignClassCleaningFlame
+	a sh:SPARQLRule ;
+	sh:deactivated false ;
+	sh:order 2 ;
+	sh:prefixes srmo: ,
+				rdf: ;
+	sh:construct """
+		PREFIX srmo: <https://www.bim-sis.de/ontology/damage/srmo#>
+		PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+		CONSTRUCT {
+			$this rdf:type srmo:Flaming .
+		}
+		WHERE {
+            FILTER (regex(str($this), "flamecleaning")) .
+		}
+		"""
+.
+rm:AssignClassCleaningDry
+	a sh:SPARQLRule ;
+	sh:deactivated false ;
+	sh:order 2 ;
+	sh:prefixes srmo: ,
+				rdf: ;
+	sh:construct """
+		PREFIX srmo: <https://www.bim-sis.de/ontology/damage/srmo#>
+		PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+		CONSTRUCT {
+			$this rdf:type srmo:DryCleaning .
+		}
+		WHERE {
+            FILTER (regex(str($this), "drycleaning")) .
+		}
+		"""
+.
+rm:AssignClassCleaningWet
+	a sh:SPARQLRule ;
+	sh:deactivated false ;
+	sh:order 2 ;
+	sh:prefixes srmo: ,
+				rdf: ;
+	sh:construct """
+		PREFIX srmo: <https://www.bim-sis.de/ontology/damage/srmo#>
+		PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+		CONSTRUCT {
+			$this rdf:type srmo:WetCleaning .
+		}
+		WHERE {
+            FILTER (regex(str($this), "wetcleaning")) .
+		}
+		"""
+.
+rm:AssignClassPlastering
+	a sh:SPARQLRule ;
+	sh:deactivated false ;
+	sh:order 2 ;
+	sh:prefixes srmo: ,
+				rdf: ;
+	sh:construct """
+		PREFIX srmo: <https://www.bim-sis.de/ontology/damage/srmo#>
+		PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+		CONSTRUCT {
+			$this rdf:type srmo:Plastering .
+		}
+		WHERE {
+            FILTER (regex(str($this), "plastering")) .
+		}
+		"""
+.
+rm:AssignClassPrevenBiozide
+	a sh:SPARQLRule ;
+	sh:deactivated false ;
+	sh:order 2 ;
+	sh:prefixes srmo: ,
+				rdf: ;
+	sh:construct """
+		PREFIX srmo: <https://www.bim-sis.de/ontology/damage/srmo#>
+		PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+		CONSTRUCT {
+			$this rdf:type srmo:PreventiveBiocidalTreatment .
+		}
+		WHERE {
+            FILTER (regex(str($this), "biozidepreven")) .
+		}
+		"""
+.
+rm:AssignClassPrevenMaint
+	a sh:SPARQLRule ;
+	sh:deactivated false ;
+	sh:order 2 ;
+	sh:prefixes srmo: ,
+				rdf: ;
+	sh:construct """
+		PREFIX srmo: <https://www.bim-sis.de/ontology/damage/srmo#>
+		PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+		CONSTRUCT {
+			$this rdf:type srmo:Maintenance_measure .
+		}
+		WHERE {
+            FILTER (regex(str($this), "maintenance")) .
+		}
+		"""
+.
+rm:AssignClassCrackFilling
+	a sh:SPARQLRule ;
+	sh:deactivated false ;
+	sh:order 2 ;
+	sh:prefixes srmo: ,
+				rdf: ;
+	sh:construct """
+		PREFIX srmo: <https://www.bim-sis.de/ontology/damage/srmo#>
+		PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+		CONSTRUCT {
+			$this rdf:type srmo:CrackFilling .
+		}
+		WHERE {
+            FILTER (regex(str($this), "crackfilling")) .
+		}
+		"""
+.
+rm:AssignClassAnchor
+	a sh:SPARQLRule ;
+	sh:deactivated false ;
+	sh:order 2 ;
+	sh:prefixes srmo: ,
+				rdf: ;
+	sh:construct """
+		PREFIX srmo: <https://www.bim-sis.de/ontology/damage/srmo#>
+		PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+		CONSTRUCT {
+			$this rdf:type srmo:Anchoring .
+		}
+		WHERE {
+            FILTER (regex(str($this), "anchoring")) .
+		}
+		"""
+.
+rm:AssignClassBrace
+	a sh:SPARQLRule ;
+	sh:deactivated false ;
+	sh:order 2 ;
+	sh:prefixes srmo: ,
+				rdf: ;
+	sh:construct """
+		PREFIX srmo: <https://www.bim-sis.de/ontology/damage/srmo#>
+		PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+		CONSTRUCT {
+			$this rdf:type srmo:Bracing .
+		}
+		WHERE {
+            FILTER (regex(str($this), "bracing")) .
+		}
+		"""
+.
+rm:AssignClassNeedling
+	a sh:SPARQLRule ;
+	sh:deactivated false ;
+	sh:order 2 ;
+	sh:prefixes srmo: ,
+				rdf: ;
+	sh:construct """
+		PREFIX srmo: <https://www.bim-sis.de/ontology/damage/srmo#>
+		PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+		CONSTRUCT {
+			$this rdf:type srmo:Needling .
+		}
+		WHERE {
+            FILTER (regex(str($this), "needling")) .
+		}
+		"""
+.
+rm:AssignClassPressing
+	a sh:SPARQLRule ;
+	sh:deactivated false ;
+	sh:order 2 ;
+	sh:prefixes srmo: ,
+				rdf: ;
+	sh:construct """
+		PREFIX srmo: <https://www.bim-sis.de/ontology/damage/srmo#>
+		PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+		CONSTRUCT {
+			$this rdf:type srmo:Pressing .
+		}
+		WHERE {
+            FILTER (regex(str($this), "pressing")) .
+		}
+		"""
+.
+rm:AssignClassStoneComplement
+	a sh:SPARQLRule ;
+	sh:deactivated false ;
+	sh:order 2 ;
+	sh:prefixes srmo: ,
+				rdf: ;
+	sh:construct """
+		PREFIX srmo: <https://www.bim-sis.de/ontology/damage/srmo#>
+		PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+		CONSTRUCT {
+			$this rdf:type srmo:StoneComplement .
+		}
+		WHERE {
+            FILTER (regex(str($this), "stonecomplement")) .
+		}
+		"""
+.
+rm:AssignClassStoneReplacement
+	a sh:SPARQLRule ;
+	sh:deactivated false ;
+	sh:order 2 ;
+	sh:prefixes srmo: ,
+				rdf: ;
+	sh:construct """
+		PREFIX srmo: <https://www.bim-sis.de/ontology/damage/srmo#>
+		PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+		CONSTRUCT {
+			$this rdf:type srmo:StoneReplacement .
+		}
+		WHERE {
+            FILTER (regex(str($this), "stonereplacement")) .
+		}
+		"""
+.

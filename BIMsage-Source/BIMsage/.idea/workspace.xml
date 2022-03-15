@@ -1,0 +1,1394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f854a18d-5317-4f6c-bc90-ae7165cb4812" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-annotation/DOTknow-annotation.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-annotation/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-annotation/src/main/java/de/tud/cib/dotknow/annotation/model/ActiveAnnotationData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/annotation/model/ActiveAnnotationData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-annotation/src/main/java/de/tud/cib/dotknow/annotation/model/AnnotationData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/annotation/model/AnnotationData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-annotation/src/main/java/de/tud/cib/dotknow/annotation/model/entry/AnnotationEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/annotation/model/entry/AnnotationEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-annotation/src/main/java/de/tud/cib/dotknow/annotation/model/entry/ClassAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/annotation/model/entry/ClassAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-annotation/src/main/java/de/tud/cib/dotknow/annotation/xmlUtil/AnnotationXMLParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/annotation/xmlUtil/AnnotationXMLParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-annotation/src/main/resources/annotationXSD/annotationSchema.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/annotationXSD/annotationSchema.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-annotation/src/test/java/de/tud/cib/dotknow/annotation/xmlUtil/AnnotationXMLParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/tud/cib/bimsage/annotation/xmlUtil/AnnotationXMLParserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-annotation/src/test/resources/output/testOutput.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/annotation/output/testOutput.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-annotation/src/test/resources/testAnnotation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/annotation/testAnnotation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-annotation/target/annotation-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-annotation/target/annotation-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-annotation/target/classes/annotationXSD/annotationSchema.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-annotation/target/classes/de/tud/cib/dotknow/annotation/model/ActiveAnnotationData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-annotation/target/classes/de/tud/cib/dotknow/annotation/model/AnnotationData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-annotation/target/classes/de/tud/cib/dotknow/annotation/model/entry/AnnotationEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-annotation/target/classes/de/tud/cib/dotknow/annotation/model/entry/ClassAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-annotation/target/classes/de/tud/cib/dotknow/annotation/xmlUtil/AnnotationXMLParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-annotation/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-annotation/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-annotation/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-annotation/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-annotation/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-annotation/target/surefire-reports/TEST-de.tud.cib.dotknow.annotation.xmlUtil.AnnotationXMLParserTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-annotation/target/surefire-reports/de.tud.cib.dotknow.annotation.xmlUtil.AnnotationXMLParserTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-annotation/target/test-classes/de/tud/cib/dotknow/annotation/xmlUtil/AnnotationXMLParserTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-annotation/target/test-classes/output/testOutput.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-annotation/target/test-classes/testAnnotation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/.idea/$CACHE_FILE$" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/MainGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/MainGUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/MainGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/MainGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/components/ComponentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/ComponentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/components/anamnesis/construction/ConstructionOntologyDialog.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/anamnesis/construction/ConstructionOntologyDialog.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/components/anamnesis/construction/ConstructionOntologyDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/anamnesis/construction/ConstructionOntologyDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/components/anamnesis/damage/AggregateDamageDialog.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/anamnesis/damage/AggregateDamageDialog.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/components/anamnesis/damage/AggregateDamageDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/anamnesis/damage/AggregateDamageDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/components/anamnesis/damage/ConfigureDamageDialog.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/anamnesis/damage/ConfigureDamageDialog.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/components/anamnesis/damage/ConfigureDamageDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/anamnesis/damage/ConfigureDamageDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/components/anamnesis/damage/DamageStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/anamnesis/damage/DamageStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/components/anamnesis/damage/SelectedDamage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/anamnesis/damage/SelectedDamage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/components/anamnesis/properties/OntologyProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/anamnesis/properties/OntologyProperty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/components/anamnesis/properties/PropertyDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/anamnesis/properties/PropertyDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/components/filter/FilterDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/filter/FilterDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/components/filter/FilterFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/filter/FilterFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/components/filter/preconfig/FilterPreConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/filter/preconfig/FilterPreConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/components/icdd/DocumentSelectionDialog.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/icdd/DocumentSelectionDialog.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/components/icdd/DocumentSelectionDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/icdd/DocumentSelectionDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/components/icdd/ICDDFileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/icdd/ICDDFileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/components/ifc/IfcEntityListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/ifc/IfcEntityListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/components/ifc/IfcStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/ifc/IfcStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/components/menu/GUIMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/menu/GUIMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/components/menu/file/ExitButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/menu/file/ExitButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/components/menu/file/SaveButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/menu/file/SaveButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/components/menu/file/newproject/NewProjectButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/menu/file/newproject/NewProjectButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/components/menu/file/newproject/NewProjectDialog.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/menu/file/newproject/NewProjectDialog.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/components/menu/file/newproject/NewProjectDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/menu/file/newproject/NewProjectDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/configuration/preconfigdata/PreConfigConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/configuration/preconfigdata/PreConfigConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/configuration/preconfigdata/configbeans/ConfigData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/configuration/preconfigdata/configbeans/ConfigData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/configuration/preconfigdata/configbeans/DiagnosisConfigData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/configuration/preconfigdata/configbeans/DiagnosisConfigData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/configuration/preconfigdata/configbeans/SHACLRuleSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/configuration/preconfigdata/configbeans/SHACLRuleSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/configuration/preconfigdata/configbeans/TherapyConfigData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/configuration/preconfigdata/configbeans/TherapyConfigData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/configuration/resources/ResourceConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/configuration/resources/ResourceConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/configuration/resources/ResourceData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/configuration/resources/ResourceData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/configuration/resources/ontology/OntologyData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/configuration/resources/ontology/OntologyData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/configuration/resources/ontology/SHACLData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/configuration/resources/ontology/SHACLData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/configuration/resources/ontology/SPARQLData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/configuration/resources/ontology/SPARQLData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/controller/annotation/AnnotationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/controller/annotation/AnnotationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/namespaces/icdd/ICDDNameSpaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/namespaces/icdd/ICDDNameSpaces.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/utility/FileChooserUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/utility/FileChooserUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/utility/list/JListModelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/utility/list/JListModelReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/utility/list/checkboxlist/JCheckBoxList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/utility/list/checkboxlist/JCheckBoxList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/utility/list/checkboxlist/JCheckboxWithObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/utility/list/checkboxlist/JCheckboxWithObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/java/de/tud/cib/dotknow/gui/utility/messages/MessageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/utility/messages/MessageFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/resources/ResourceConfiguration.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ResourceConfiguration.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/resources/configuration/DiagnosisConfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/configuration/DiagnosisConfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/resources/configuration/TherapyConfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/configuration/TherapyConfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/resources/ontology/shacl/damageValidation.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ontology/shacl/damageValidation.ttl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/resources/ontology/shacl/renovationMeasures.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ontology/shacl/renovationMeasures.ttl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/resources/ontology/shacl/renovationMeasuresClassification.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ontology/shacl/renovationMeasuresClassification.ttl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/resources/ontology/shacl/unidentifiedDamages.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ontology/shacl/unidentifiedDamages.ttl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/resources/ontology/sparql/DamageQuery.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ontology/sparql/DamageQuery.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/resources/ontology/sparql/QueryDamageArea.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ontology/sparql/QueryDamageArea.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/resources/ontology/sparql/QueryDamageAreasByType.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ontology/sparql/QueryDamageAreasByType.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/resources/ontology/sparql/QueryDamageCategories.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ontology/sparql/QueryDamageCategories.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/resources/ontology/sparql/QueryDamageMap.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ontology/sparql/QueryDamageMap.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/resources/ontology/sparql/QueryDamageMultiples.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ontology/sparql/QueryDamageMultiples.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/resources/ontology/sparql/QueryRenovationClass.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ontology/sparql/QueryRenovationClass.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/resources/ontology/sparql/QueryRenovationMeasure.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ontology/sparql/QueryRenovationMeasure.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/resources/ontology/sparql/QueryStoneArea.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ontology/sparql/QueryStoneArea.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/resources/ontology/tbox/cdo.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ontology/tbox/cdo.ttl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/resources/ontology/tbox/nsd.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ontology/tbox/nsd.ttl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/src/main/resources/ontology/tbox/sco.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ontology/tbox/sco.ttl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/DOTknow-gui-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/DOTknow-gui-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/ResourceConfiguration.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/configuration/DiagnosisConfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/configuration/TherapyConfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/MainGUI$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/MainGUI$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/MainGUI$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/MainGUI$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/MainGUI$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/MainGUI$14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/MainGUI$15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/MainGUI$16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/MainGUI$17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/MainGUI$18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/MainGUI$19.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/MainGUI$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/MainGUI$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/MainGUI$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/MainGUI$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/MainGUI$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/MainGUI$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/MainGUI$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/MainGUI$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/MainGUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/ComponentController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/ComponentController$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/ComponentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/anamnesis/construction/ConstructionOntologyDialog$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/anamnesis/construction/ConstructionOntologyDialog$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/anamnesis/construction/ConstructionOntologyDialog$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/anamnesis/construction/ConstructionOntologyDialog$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/anamnesis/construction/ConstructionOntologyDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/anamnesis/damage/AggregateDamageDialog$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/anamnesis/damage/AggregateDamageDialog$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/anamnesis/damage/AggregateDamageDialog$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/anamnesis/damage/AggregateDamageDialog$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/anamnesis/damage/AggregateDamageDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/anamnesis/damage/ConfigureDamageDialog$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/anamnesis/damage/ConfigureDamageDialog$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/anamnesis/damage/ConfigureDamageDialog$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/anamnesis/damage/ConfigureDamageDialog$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/anamnesis/damage/ConfigureDamageDialog$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/anamnesis/damage/ConfigureDamageDialog$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/anamnesis/damage/ConfigureDamageDialog$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/anamnesis/damage/ConfigureDamageDialog$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/anamnesis/damage/ConfigureDamageDialog$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/anamnesis/damage/ConfigureDamageDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/anamnesis/damage/DamageStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/anamnesis/damage/SelectedDamage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/anamnesis/properties/OntologyProperty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/anamnesis/properties/PropertyDatabase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/filter/FilterDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/filter/FilterFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/filter/preconfig/FilterPreConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/icdd/DocumentSelectionDialog$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/icdd/DocumentSelectionDialog$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/icdd/DocumentSelectionDialog$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/icdd/DocumentSelectionDialog$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/icdd/DocumentSelectionDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/icdd/ICDDFileManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/ifc/IfcEntityListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/ifc/IfcStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/menu/GUIMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/menu/file/ExitButton$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/menu/file/ExitButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/menu/file/SaveButton$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/menu/file/SaveButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/menu/file/newproject/NewProjectButton$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/menu/file/newproject/NewProjectButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/menu/file/newproject/NewProjectDialog$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/menu/file/newproject/NewProjectDialog$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/menu/file/newproject/NewProjectDialog$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/menu/file/newproject/NewProjectDialog$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/menu/file/newproject/NewProjectDialog$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/menu/file/newproject/NewProjectDialog$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/components/menu/file/newproject/NewProjectDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/configuration/preconfigdata/PreConfigConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/configuration/preconfigdata/configbeans/ConfigData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/configuration/preconfigdata/configbeans/DiagnosisConfigData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/configuration/preconfigdata/configbeans/SHACLRuleSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/configuration/preconfigdata/configbeans/TherapyConfigData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/configuration/resources/ResourceConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/configuration/resources/ResourceData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/configuration/resources/ontology/OntologyData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/configuration/resources/ontology/SHACLData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/configuration/resources/ontology/SPARQLData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/controller/annotation/AnnotationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/namespaces/icdd/ICDDNameSpaces.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/utility/FileChooserUtility.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/utility/list/JListModelReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/utility/list/checkboxlist/JCheckBoxList$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/utility/list/checkboxlist/JCheckBoxList$CellRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/utility/list/checkboxlist/JCheckBoxList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/utility/list/checkboxlist/JCheckboxWithObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/utility/messages/MessageFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/utility/messages/MessageFactory$MessageType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/de/tud/cib/dotknow/gui/utility/messages/MessageFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/ontology/shacl/damageValidation.ttl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/ontology/shacl/renovationMeasures.ttl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/ontology/shacl/renovationMeasuresClassification.ttl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/ontology/shacl/unidentifiedDamages.ttl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/ontology/sparql/DamageQuery.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/ontology/sparql/QueryDamageArea.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/ontology/sparql/QueryDamageAreasByType.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/ontology/sparql/QueryDamageCategories.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/ontology/sparql/QueryDamageMap.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/ontology/sparql/QueryDamageMultiples.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/ontology/sparql/QueryRenovationClass.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/ontology/sparql/QueryRenovationMeasure.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/ontology/sparql/QueryStoneArea.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/ontology/tbox/cdo.ttl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/ontology/tbox/nsd.ttl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/classes/ontology/tbox/sco.ttl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-gui/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/src/main/java/de/tud/cib/dotknow/icdd/activedata/ActiveICDD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/icdd/activedata/ActiveICDD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/src/main/java/de/tud/cib/dotknow/icdd/activedata/treemodel/ICDDStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/icdd/activedata/treemodel/ICDDStructure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/src/main/java/de/tud/cib/dotknow/icdd/activedata/treemodel/ICDDTreeCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/icdd/activedata/treemodel/ICDDTreeCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/src/main/java/de/tud/cib/dotknow/icdd/configuration/ICDDBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/icdd/configuration/ICDDBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/src/main/java/de/tud/cib/dotknow/icdd/configuration/ICDDModifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/icdd/configuration/ICDDModifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/src/main/java/de/tud/cib/dotknow/icdd/configuration/input/ConstructionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/icdd/configuration/input/ConstructionType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/src/main/java/de/tud/cib/dotknow/icdd/configuration/input/ModelElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/icdd/configuration/input/ModelElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/src/main/java/de/tud/cib/dotknow/icdd/utility/filter/ICDDFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/icdd/utility/filter/ICDDFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/src/main/java/de/tud/cib/dotknow/icdd/utility/filter/IfcICDDFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/icdd/utility/filter/IfcICDDFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/src/test/java/de/tud/cib/dotknow/icdd/activedata/ActiveICDDTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/tud/cib/bimsage/icdd/activedata/ActiveICDDTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/src/test/java/de/tud/cib/dotknow/icdd/activedata/treemodel/ICDDTreeCreatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/tud/cib/bimsage/icdd/activedata/treemodel/ICDDTreeCreatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/src/test/java/de/tud/cib/dotknow/icdd/configuration/ICDDBuilderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/tud/cib/bimsage/icdd/configuration/ICDDBuilderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/src/test/java/de/tud/cib/dotknow/icdd/configuration/ICDDModifierTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/tud/cib/bimsage/icdd/configuration/ICDDModifierTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/src/test/java/de/tud/cib/dotknow/icdd/utility/filter/ICDDFilterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/tud/cib/bimsage/icdd/utility/filter/ICDDFilterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/src/test/java/de/tud/cib/dotknow/icdd/utility/filter/IfcICDDFilterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/tud/cib/bimsage/icdd/utility/filter/IfcICDDFilterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/src/test/resources/icdd/TestICDD.icdd" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/icdd/TestICDD.icdd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/src/test/resources/icdd/icddTreeTest.icdd" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/icdd/icddTreeTest.icdd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/src/test/resources/ifc/20141215_EFH.ifc" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/ifc/20141215_EFH.ifc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/src/test/resources/ifc/20191210_Promnitz_Building_IFC4.ifc" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/ifc/20191210_Promnitz_Building_IFC4.ifc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/target/DOTknow-icdd-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/target/DOTknow-icdd-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/target/classes/de/tud/cib/dotknow/icdd/activedata/ActiveICDD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/target/classes/de/tud/cib/dotknow/icdd/activedata/treemodel/ICDDStructure.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/target/classes/de/tud/cib/dotknow/icdd/activedata/treemodel/ICDDTreeCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/target/classes/de/tud/cib/dotknow/icdd/configuration/ICDDBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/target/classes/de/tud/cib/dotknow/icdd/configuration/ICDDModifier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/target/classes/de/tud/cib/dotknow/icdd/configuration/input/ConstructionType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/target/classes/de/tud/cib/dotknow/icdd/configuration/input/ModelElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/target/classes/de/tud/cib/dotknow/icdd/utility/filter/ICDDFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/target/classes/de/tud/cib/dotknow/icdd/utility/filter/IfcICDDFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/target/surefire-reports/TEST-de.tud.cib.dotknow.icdd.activedata.ActiveICDDTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/target/surefire-reports/TEST-de.tud.cib.dotknow.icdd.activedata.treemodel.ICDDTreeCreatorTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/target/surefire-reports/TEST-de.tud.cib.dotknow.icdd.configuration.ICDDBuilderTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/target/surefire-reports/TEST-de.tud.cib.dotknow.icdd.configuration.ICDDModifierTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/target/surefire-reports/TEST-de.tud.cib.dotknow.icdd.utility.filter.ICDDFilterTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/target/surefire-reports/TEST-de.tud.cib.dotknow.icdd.utility.filter.IfcICDDFilterTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/target/surefire-reports/de.tud.cib.dotknow.icdd.activedata.ActiveICDDTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/target/surefire-reports/de.tud.cib.dotknow.icdd.activedata.treemodel.ICDDTreeCreatorTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/target/surefire-reports/de.tud.cib.dotknow.icdd.configuration.ICDDBuilderTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/target/surefire-reports/de.tud.cib.dotknow.icdd.configuration.ICDDModifierTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/target/surefire-reports/de.tud.cib.dotknow.icdd.utility.filter.ICDDFilterTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/target/surefire-reports/de.tud.cib.dotknow.icdd.utility.filter.IfcICDDFilterTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/target/test-classes/de/tud/cib/dotknow/icdd/activedata/ActiveICDDTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/target/test-classes/de/tud/cib/dotknow/icdd/activedata/treemodel/ICDDTreeCreatorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/target/test-classes/de/tud/cib/dotknow/icdd/configuration/ICDDBuilderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/target/test-classes/de/tud/cib/dotknow/icdd/configuration/ICDDModifierTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/target/test-classes/de/tud/cib/dotknow/icdd/utility/filter/ICDDFilterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/target/test-classes/de/tud/cib/dotknow/icdd/utility/filter/IfcICDDFilterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/target/test-classes/icdd/TestICDD.icdd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/target/test-classes/icdd/icddTreeTest.icdd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/target/test-classes/ifc/20141215_EFH.ifc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-icdd/target/test-classes/ifc/20191210_Promnitz_Building_IFC4.ifc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ifctools/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ifctools/src/main/java/de/tud/cib/dotknow/ifc/TopologicalEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/ifc/TopologicalEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ifctools/src/main/java/de/tud/cib/dotknow/ifc/filter/TopologicalEntityFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/ifc/filter/TopologicalEntityFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ifctools/target/DOTknow-ifctools-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ifctools/target/DOTknow-ifctools-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ifctools/target/classes/de/tud/cib/dotknow/ifc/TopologicalEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ifctools/target/classes/de/tud/cib/dotknow/ifc/filter/TopologicalEntityFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ifctools/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ifctools/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ifctools/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/DOTknow-ontology.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/src/main/java/de/tud/dotknow/ontology/construction/conversion/AnnotationConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/ontology/construction/conversion/AnnotationConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/src/main/java/de/tud/dotknow/ontology/construction/conversion/IFCToOWLConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/ontology/construction/conversion/IFCToOWLConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/src/main/java/de/tud/dotknow/ontology/namespaces/OntologyNamespaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/ontology/namespaces/OntologyNamespaces.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/src/main/java/de/tud/dotknow/ontology/namespaces/tbox/BOT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/ontology/namespaces/tbox/BOT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/src/main/java/de/tud/dotknow/ontology/namespaces/tbox/BROT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/ontology/namespaces/tbox/BROT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/src/main/java/de/tud/dotknow/ontology/namespaces/tbox/DOT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/ontology/namespaces/tbox/DOT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/src/main/java/de/tud/dotknow/ontology/namespaces/tbox/SCO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/ontology/namespaces/tbox/SCO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/src/main/java/de/tud/dotknow/ontology/reasoner/OWLReasonerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/ontology/reasoner/OWLReasonerManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/src/main/java/de/tud/dotknow/ontology/reasoner/ReasonerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/ontology/reasoner/ReasonerManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/src/main/java/de/tud/dotknow/ontology/reasoner/SHACLReasonerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/ontology/reasoner/SHACLReasonerManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/src/main/java/de/tud/dotknow/ontology/representation/ActiveOntology.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/ontology/representation/ActiveOntology.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/src/main/java/de/tud/dotknow/ontology/sparqlquery/OntQueryTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/ontology/sparqlquery/OntQueryTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/src/main/test/de/tud/dotknow/ontology/construction/conversion/AnnotationConverterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/tud/cib/bimsage/ontology/construction/conversion/AnnotationConverterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/src/main/test/de/tud/dotknow/ontology/construction/conversion/IFCToOWLConverterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/tud/cib/bimsage/ontology/construction/conversion/IFCToOWLConverterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/src/main/test/de/tud/dotknow/ontology/reasoner/OWLReasonerManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/tud/cib/bimsage/ontology/reasoner/OWLReasonerManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/src/main/test/de/tud/dotknow/ontology/reasoner/SHACLReasonerManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/tud/cib/bimsage/ontology/reasoner/SHACLReasonerManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/src/main/test/resources/20200121_Promnitz_Stones.ifc" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/ontology/20200121_Promnitz_Stones.ifc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/src/main/test/resources/SHACL/damageValidation.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/ontology/SHACL/damageValidation.ttl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/src/main/test/resources/SHACL/renovationMeasures.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/ontology/SHACL/renovationMeasures.ttl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/src/main/test/resources/SHACL/renovationMeasuresClassification.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/ontology/SHACL/renovationMeasuresClassification.ttl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/src/main/test/resources/SHACL/unassignedProperties.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/ontology/SHACL/unassignedProperties.ttl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/src/main/test/resources/bimsisSampleData.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/ontology/bimsisSampleData.ttl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/src/main/test/resources/dotSampleData_v1.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/ontology/dotSampleData_v1.ttl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/src/main/test/resources/nsdSampleData.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/ontology/nsdSampleData.ttl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/src/main/test/resources/output/OWLOutput/infModelTest.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/ontology/output/OWLOutput/infModelTest.ttl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/src/main/test/resources/output/OWLOutput/mergedOntologyTest.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/ontology/output/OWLOutput/mergedOntologyTest.ttl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/src/main/test/resources/output/SHACLOutput/infModelTest.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/ontology/output/SHACLOutput/infModelTest.ttl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/src/main/test/resources/output/SHACLOutput/mergedOntologyTest.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/ontology/output/SHACLOutput/mergedOntologyTest.ttl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/src/main/test/resources/output/output.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/ontology/output/output.ttl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/src/main/test/resources/output/validationReport.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/ontology/output/validationReport.ttl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/src/main/test/resources/renovationOntologyPhase1.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/ontology/renovationOntologyPhase1.ttl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/src/main/test/resources/testOntology.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/ontology/testOntology.ttl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/target/classes/de/tud/dotknow/ontology/construction/conversion/AnnotationConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/target/classes/de/tud/dotknow/ontology/construction/conversion/IFCToOWLConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/target/classes/de/tud/dotknow/ontology/namespaces/OntologyNamespaces.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/target/classes/de/tud/dotknow/ontology/namespaces/tbox/BOT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/target/classes/de/tud/dotknow/ontology/namespaces/tbox/BROT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/target/classes/de/tud/dotknow/ontology/namespaces/tbox/DOT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/target/classes/de/tud/dotknow/ontology/namespaces/tbox/SCO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/target/classes/de/tud/dotknow/ontology/reasoner/OWLReasonerManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/target/classes/de/tud/dotknow/ontology/reasoner/ReasonerManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/target/classes/de/tud/dotknow/ontology/reasoner/SHACLReasonerManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/target/classes/de/tud/dotknow/ontology/representation/ActiveOntology.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/target/classes/de/tud/dotknow/ontology/sparqlquery/OntQueryTool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/target/ontology-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTknow-ontology/target/ontology-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/DOTknow-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Singleton" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>onReasonTh</find>
+      <find>listModel</find>
+      <find>flam</find>
+      <find>plast</find>
+      <find>moss</find>
+      <find>reasonO</find>
+      <find>Moss</find>
+      <find>CleaningWet</find>
+      <find>wet</find>
+      <find>reasonTherapy</find>
+      <find>damageimpact</find>
+      <find>test</find>
+      <find>recom</find>
+      <find>reasonSHacl</find>
+      <find>wetClean</find>
+      <find>new DefaultTable</find>
+      <find>classificationD</find>
+      <find>domainComboBox</find>
+      <find>jdom</find>
+      <find>annotationData</find>
+      <find>main/test/</find>
+      <find>main/test/resources</find>
+      <find>annotation</find>
+      <find>sample</find>
+      <find>simpleAboxPath</find>
+      <find>jena</find>
+      <find>shacl</find>
+      <find>dotknow</find>
+      <find>configuration</find>
+      <find>assembly</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>main/test/java</replace>
+      <replace>main/test/java/</replace>
+      <replace>test/resources</replace>
+      <replace>bimsage</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/ifc/filter/TopologicalEntityFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/icdd/ifc/filter/TopologicalEntityFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/ifc/filter/TopologicalEntityFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ontology/construction/conversion/IFCToOWLConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/ontology/construction/conversion/IFCToOWLConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/annotation/model/entry/AnnotationEntry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/annotation/model/AnnotationData.java" />
+        <option value="$PROJECT_DIR$/src/test/java/xmlUtil/AnnotationXMLParserTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/de/tud/cib/bimsage/icdd/xmlUtil/AnnotationXMLParserTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/annotation/xmlUtil/xmlUtil/AnnotationXMLParserTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/ontology/construction/conversion/AnnotationConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/ontology/namespaces/tbox/BOT.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/ontology/namespaces/tbox/BROT.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/ontology/namespaces/tbox/DOT.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/ontology/namespaces/tbox/SCO.java" />
+        <option value="$PROJECT_DIR$/src/test/java/de/tud/cib/bimsage/annotation/xmlUtil/AnnotationXMLParserTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/annotation/xmlUtil/AnnotationXMLParser.java" />
+        <option value="$PROJECT_DIR$/src/test/java/de/tud/cib/bimsage/ontology/reasoner/OWLReasonerManagerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/de/tud/cib/bimsage/ontology/reasoner/SHACLReasonerManagerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/ontology/reasoner/SHACLReasonerManager.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/ontology/renovationOntologyPhase1.ttl" />
+        <option value="$PROJECT_DIR$/src/main/java/gui/components/menu/file/newproject/NewProjectDialog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/menu/file/newproject/NewProjectDialog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/anamnesis/construction/ConstructionOntologyDialog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/anamnesis/damage/AggregateDamageDialog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/anamnesis/damage/ConfigureDamageDialog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/anamnesis/damage/DamageStatus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/anamnesis/damage/SelectedDamage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/filter/preconfig/FilterPreConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/icdd/DocumentSelectionDialog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/icdd/ICDDFileManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/ifc/IfcEntityListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/menu/GUIMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/ComponentController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/configuration/preconfigdata/PreConfigConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/configuration/resources/ontology/OntologyData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/configuration/resources/ontology/SHACLData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/configuration/resources/ontology/SPARQLData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/controller/annotation/AnnotationController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/configuration/resources/ResourceConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/ResourceConfiguration.json" />
+        <option value="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/menu/file/newproject/NewProjectDialog.form" />
+        <option value="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/anamnesis/construction/ConstructionOntologyDialog.form" />
+        <option value="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/anamnesis/damage/AggregateDamageDialog.form" />
+        <option value="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/icdd/DocumentSelectionDialog.form" />
+        <option value="$PROJECT_DIR$/src/test/java/de/tud/cib/bimsage/ontology/construction/conversion/AnnotationConverterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/de/tud/cib/bimsage/ontology/construction/conversion/IFCToOWLConverterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/MainGUI.form" />
+        <option value="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/MainGUI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/anamnesis/damage/ConfigureDamageDialog.form" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="BIMsage" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="BIMsage" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1361" />
+    <option name="y" value="-9" />
+    <option name="width" value="1942" />
+    <option name="height" value="1062" />
+  </component>
+  <component name="ProjectId" id="1t20vo3phhLOxVuHolBtiKMLa1g" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DamageAssessmentSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BIMsage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DamageAssessmentSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BIMsage" type="462c0819:PsiDirectoryNode" />
+              <item name="maven-repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DamageAssessmentSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BIMsage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DamageAssessmentSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BIMsage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DamageAssessmentSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BIMsage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DamageAssessmentSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BIMsage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bimsage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DamageAssessmentSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BIMsage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bimsage" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DamageAssessmentSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BIMsage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bimsage" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DamageAssessmentSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BIMsage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bimsage" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="anamnesis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DamageAssessmentSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BIMsage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bimsage" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="anamnesis" type="462c0819:PsiDirectoryNode" />
+              <item name="damage" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="104" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="301" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/DOTknow-ontology/src/main/test/de/tud/dotknow/ontology/reasoner" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BIMsageOld" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propGUI" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="de.tud.cib.bimsage.annotation" />
+      <recent name="de.tud.cib.bimsage" />
+      <recent name="de.tud.cib.bimsage.annotation.xmlUtil" />
+      <recent name="de.tud.cib.bimsage.icdd" />
+      <recent name="de.tud.dotknow.ontology.construction.conversion" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Arbeit\BIMsage\BIMsage\src\main\resources" />
+      <recent name="D:\Arbeit\BIMsage\BIMsage\src\main\java" />
+      <recent name="D:\Arbeit\BIMsage\BIMsage\src\test\resources\ontology" />
+      <recent name="D:\Arbeit\BIMsage\BIMsage\src\test\java\de\tud\cib\bimsage" />
+      <recent name="D:\Arbeit\BIMsage\BIMsage\src\test\resources\annotation" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="xmlUtil" />
+      <recent name="de.tud.cib.dotknow.gui.components.filter.sparqlquery" />
+      <recent name="de.tud.cib.dotknow.icdd.utility.filter" />
+      <recent name="de.tud.dotknow.ontology.namespaces.tbox" />
+      <recent name="de.tud.cib.dotknow.ifc.filter" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Arbeit\WorkspaceCIB\DOTKnow\DOTknow-ontology\src\main\test\de\tud\dotknow\ontology\" />
+      <recent name="D:\Arbeit\WorkspaceCIB\DOTKnow\DOTknow-ontology\src\main\test\java\de\tud\dotknow\ontology\" />
+      <recent name="M:\workspaceHAM\DOTKnow\DOTknow-ontology\src\main\test\resources\output\" />
+      <recent name="M:\workspaceHAM\DOTKnow\DOTknow-ontology\src\main\test\resources\output\OWLOutput" />
+      <recent name="C:\Workspace\Java-Workspace\DOTKnow\DOTknow-gui\src\main\resources\ontology\" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MainGUI">
+    <configuration name="MainGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.tud.cib.bimsage.gui.MainGUI" />
+      <module name="BIMsage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.tud.cib.bimsage.gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnnotationConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BIMsage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.tud.cib.bimsage.ontology.construction.conversion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.tud.cib.bimsage.ontology.construction.conversion" />
+      <option name="MAIN_CLASS_NAME" value="de.tud.cib.bimsage.ontology.construction.conversion.AnnotationConverterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IFCToOWLConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BIMsage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.tud.cib.bimsage.ontology.construction.conversion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.tud.cib.bimsage.ontology.construction.conversion" />
+      <option name="MAIN_CLASS_NAME" value="de.tud.cib.bimsage.ontology.construction.conversion.IFCToOWLConverterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SHACLReasonerManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BIMsage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.tud.cib.bimsage.ontology.reasoner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.tud.cib.bimsage.ontology.reasoner" />
+      <option name="MAIN_CLASS_NAME" value="de.tud.cib.bimsage.ontology.reasoner.SHACLReasonerManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SHACLReasonerManagerTest.testReasoning" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BIMsage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.tud.cib.bimsage.ontology.reasoner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.tud.cib.bimsage.ontology.reasoner" />
+      <option name="MAIN_CLASS_NAME" value="de.tud.cib.bimsage.ontology.reasoner.SHACLReasonerManagerTest" />
+      <option name="METHOD_NAME" value="testReasoning" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainGUI" />
+        <item itemvalue="JUnit.IFCToOWLConverterTest" />
+        <item itemvalue="JUnit.AnnotationConverterTest" />
+        <item itemvalue="JUnit.SHACLReasonerManagerTest" />
+        <item itemvalue="JUnit.SHACLReasonerManagerTest.testReasoning" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\alhak\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f854a18d-5317-4f6c-bc90-ae7165cb4812" name="Default Changelist" comment="" />
+      <created>1614161065500</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614161065500</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Damage Options in Selection Dialog are now loaded from the ontologies.">
+      <created>1621959708225</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621959708225</updated>
+    </task>
+    <task id="LOCAL-00002" summary="CreateDamageDialog does read TBox-Classes, properties and can configure aggregations.">
+      <created>1623174935281</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1623174935281</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Damage Aggregations are now assigned to created damage individuals.">
+      <created>1625503049007</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1625503049007</updated>
+    </task>
+    <task id="LOCAL-00004" summary="started work on function for interaction with damage table to modify already defined damage elements / areas.">
+      <created>1625584062511</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1625584062511</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Modify-Function now reads an individual (through the class DamageStatus) and changes the DOT-Type Combobox accordingly to its actual type.">
+      <created>1626279959959</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1626279959959</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Modify-Function now loads the correct damage domain from the selected damage.">
+      <created>1626804419590</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1626804419590</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Modify Function of the damage table loads all damage combo boxes and the properties.">
+      <created>1627486185063</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1627486185063</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Reasoning-Function finished. Bug regarding Checkbox-Selections remains.">
+      <created>1628526677199</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1628526677199</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Diagnosis-Module finished. Reasoning function of Therapy-Module partly finished (ruleset-groups need to be added to Config).">
+      <created>1628695268013</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1628695268013</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Basic-SPARQL Filter Module finished. Predefined-Filter Module prepared.">
+      <created>1630876427726</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1630876427726</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SHACLReasonerManagerTest_testReasoning - 2022.03.13 at 21h 11m 02s.xml">
+      <configuration name="SHACLReasonerManagerTest.testReasoning" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SHACLReasonerManagerTest - 2022.03.13 at 21h 34m 20s.xml">
+      <configuration name="SHACLReasonerManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SHACLReasonerManagerTest_testReasoning - 2022.03.13 at 21h 34m 28s.xml">
+      <configuration name="SHACLReasonerManagerTest.testReasoning" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SHACLReasonerManagerTest - 2022.03.13 at 21h 37m 15s.xml">
+      <configuration name="SHACLReasonerManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SHACLReasonerManagerTest_testReasoning - 2022.03.13 at 21h 37m 23s.xml">
+      <configuration name="SHACLReasonerManagerTest.testReasoning" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SHACLReasonerManagerTest - 2022.03.13 at 21h 39m 10s.xml">
+      <configuration name="SHACLReasonerManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SHACLReasonerManagerTest - 2022.03.13 at 21h 39m 42s.xml">
+      <configuration name="SHACLReasonerManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SHACLReasonerManagerTest - 2022.03.13 at 21h 44m 04s.xml">
+      <configuration name="SHACLReasonerManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotationConverterTest - 2022.03.14 at 14h 17m 43s.xml">
+      <configuration name="AnnotationConverterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IFCToOWLConverterTest - 2022.03.14 at 14h 25m 11s.xml">
+      <configuration name="IFCToOWLConverterTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="-6" width="1719" height="932" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27841252" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.32876712" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32876712" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.32952496" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Damage Options in Selection Dialog are now loaded from the ontologies." />
+    <MESSAGE value="CreateDamageDialog does read TBox-Classes, properties and can configure aggregations." />
+    <MESSAGE value="Damage Aggregations are now assigned to created damage individuals." />
+    <MESSAGE value="started work on function for interaction with damage table to modify already defined damage elements / areas." />
+    <MESSAGE value="Modify-Function now reads an individual (through the class DamageStatus) and changes the DOT-Type Combobox accordingly to its actual type." />
+    <MESSAGE value="Modify-Function now loads the correct damage domain from the selected damage." />
+    <MESSAGE value="Modify Function of the damage table loads all damage combo boxes and the properties." />
+    <MESSAGE value="Reasoning-Function finished. Bug regarding Checkbox-Selections remains." />
+    <MESSAGE value="Diagnosis-Module finished. Reasoning function of Therapy-Module partly finished (ruleset-groups need to be added to Config)." />
+    <MESSAGE value="Basic-SPARQL Filter Module finished. Predefined-Filter Module prepared." />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic-SPARQL Filter Module finished. Predefined-Filter Module prepared." />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="infModel" />
+        <watch expression="((ICDDLinkElement)((ICDDhasLinkElement)link.hasLinkElement.toArray()[0]).linkElement).hasIdentifier" custom="icdd.beans.ICDDLinkElement,icdd.beans.ICDDLink.ICDDhasLinkElement" />
+      </configuration>
+      <configuration name="Application">
+        <watch expression="((IndividualImpl)damage).enhGraph" custom="org.apache.jena.ontology.impl.IndividualImpl" />
+        <watch expression="statement" />
+        <watch expression="statement" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/anamnesis/construction/ConstructionOntologyDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/anamnesis/damage/AggregateDamageDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-192">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/anamnesis/damage/ConfigureDamageDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/anamnesis/damage/DamageStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <folding>
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/anamnesis/damage/SelectedDamage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/anamnesis/properties/OntologyProperty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/anamnesis/properties/PropertyDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-413">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/filter/preconfig/FilterPreConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="49" column="46" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/filter/FilterDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/filter/FilterFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/icdd/DocumentSelectionDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/icdd/ICDDFileManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/ifc/IfcEntityListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/ifc/IfcStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/menu/file/newproject/NewProjectButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/menu/file/newproject/NewProjectDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/menu/file/ExitButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/menu/file/SaveButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/menu/GUIMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/ComponentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/configuration/preconfigdata/configbeans/ConfigData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/configuration/preconfigdata/configbeans/DiagnosisConfigData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/configuration/preconfigdata/configbeans/SHACLRuleSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/configuration/resources/ontology/OntologyData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/configuration/resources/ontology/SHACLData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/configuration/resources/ontology/SPARQLData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/configuration/resources/ResourceData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/controller/annotation/AnnotationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/namespaces/icdd/ICDDNameSpaces.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/utility/list/checkboxlist/JCheckBoxList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/utility/list/checkboxlist/JCheckboxWithObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/utility/list/JListModelReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ResourceConfiguration.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="91" column="21" lean-forward="true" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/utility/FileChooserUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/utility/messages/MessageFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/menu/file/newproject/NewProjectDialog.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/anamnesis/construction/ConstructionOntologyDialog.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/anamnesis/damage/AggregateDamageDialog.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/configuration/resources/ResourceConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/configuration/preconfigdata/PreConfigConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/configuration/TherapyConfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/de/tud/cib/bimsage/ontology/reasoner/SHACLReasonerManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="22" column="59" lean-forward="true" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/de/tud/cib/bimsage/ontology/reasoner/OWLReasonerManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/de/tud/cib/bimsage/ontology/construction/conversion/IFCToOWLConverterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/icdd/DocumentSelectionDialog.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/de/tud/cib/bimsage/ontology/construction/conversion/AnnotationConverterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dependency-reduced-pom.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/MainGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/components/anamnesis/damage/ConfigureDamageDialog.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/tud/cib/bimsage/gui/MainGUI.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="46" column="28" lean-forward="true" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11.0.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>annotation</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$/DOTknow-gui" />
+    <option value="install -U" />
+    <option value="install" />
+    <option value="DOTknow-gui install" />
+    <option value="DOTknow-gui clean" />
+  </component>
+</project>

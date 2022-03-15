@@ -1,0 +1,394 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix inst:  <http://ex.org/alhak/data/D1#> .
+@prefix dot:   <https://w3id.org/dot#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+rdfs:domain  a              rdfs:Resource , rdf:Property ;
+        rdfs:domain         rdfs:Resource , rdf:Property ;
+        rdfs:range          rdfs:Resource , rdfs:Class ;
+        rdfs:subPropertyOf  rdfs:domain .
+
+owl:DatatypeProperty  a  rdfs:Class , rdfs:Resource ;
+        rdfs:subClassOf  rdf:Property .
+
+owl:Property  a              owl:Class , rdfs:Resource , rdfs:Class ;
+        rdfs:subClassOf      owl:Property , rdfs:Resource ;
+        owl:equivalentClass  owl:Property .
+
+owl:AnnotationProperty
+        a       rdfs:Resource , rdfs:Class .
+
+owl:imports  a              rdfs:Resource , rdf:Property , owl:OntologyProperty ;
+        rdfs:domain         rdfs:Resource , owl:Ontology ;
+        rdfs:range          rdfs:Resource , owl:Ontology ;
+        rdfs:subPropertyOf  owl:imports .
+
+xsd:negativeInteger  a  rdfs:Resource , rdfs:Class , rdfs:Datatype .
+
+owl:ObjectProperty  a    rdfs:Resource , rdfs:Class ;
+        rdfs:subClassOf  rdf:Property .
+
+owl:intersectionOf  a       rdfs:Resource , rdf:Property ;
+        rdfs:domain         rdfs:Class , rdfs:Resource , owl:Class ;
+        rdfs:subPropertyOf  owl:intersectionOf .
+
+rdfs:comment  a             rdfs:Resource , rdf:Property ;
+        rdfs:range          rdfs:Resource , rdfs:Literal ;
+        rdfs:subPropertyOf  rdfs:comment .
+
+owl:backwardCompatibleWith
+        a                   rdfs:Resource , rdf:Property ;
+        rdfs:domain         rdfs:Resource , owl:Ontology ;
+        rdfs:range          rdfs:Resource , owl:Ontology ;
+        rdfs:subPropertyOf  owl:backwardCompatibleWith .
+
+owl:Ontology  a              owl:Class , rdfs:Resource , rdfs:Class ;
+        rdfs:subClassOf      owl:Ontology , rdfs:Resource ;
+        owl:equivalentClass  owl:Ontology .
+
+xsd:unsignedLong  a          rdfs:Datatype , rdfs:Class , owl:Class , rdfs:Resource ;
+        rdfs:subClassOf      xsd:unsignedLong , xsd:integer , xsd:nonNegativeInteger , xsd:long ;
+        owl:disjointWith     xsd:float , xsd:dateTime , xsd:boolean , xsd:time , xsd:string , xsd:duration , xsd:date ;
+        owl:equivalentClass  xsd:unsignedLong .
+
+rdf:first  a                    rdfs:Resource , owl:FunctionalProperty , rdf:Property ;
+        rdfs:domain             rdfs:Resource , rdf:List ;
+        rdfs:subPropertyOf      rdf:first ;
+        owl:equivalentProperty  rdf:first .
+
+inst:damageArea5  dot:aggregatesDamagePattern
+                inst:damagePattern5 .
+
+owl:onProperty  a           rdfs:Resource , rdf:Property ;
+        rdfs:domain         rdfs:Class , rdfs:Resource , owl:Class , owl:Restriction ;
+        rdfs:range          rdfs:Resource , owl:Property ;
+        rdfs:subPropertyOf  owl:onProperty .
+
+owl:differentFrom  a        rdfs:Resource , owl:ObjectProperty , rdf:Property , owl:SymmetricProperty ;
+        rdfs:subPropertyOf  owl:differentFrom .
+
+rdf:object  a                   rdfs:Resource , rdf:Property ;
+        rdfs:domain             rdfs:Resource , rdf:Statement ;
+        rdfs:subPropertyOf      rdf:object ;
+        owl:equivalentProperty  rdf:object .
+
+rdfs:subPropertyOf  a       rdfs:Resource , rdf:Property ;
+        rdfs:domain         rdfs:Resource , rdf:Property ;
+        rdfs:range          rdfs:Resource , rdf:Property ;
+        rdfs:subPropertyOf  rdfs:subPropertyOf .
+
+owl:disjointWith  a         rdf:Property , owl:SymmetricProperty , owl:ObjectProperty , rdfs:Resource ;
+        rdfs:domain         rdfs:Resource , owl:Class , rdfs:Class ;
+        rdfs:range          rdfs:Class , owl:Class , rdfs:Resource ;
+        rdfs:subPropertyOf  owl:disjointWith .
+
+rdf:Alt  a                   owl:Class , rdfs:Resource , rdfs:Class ;
+        rdfs:subClassOf      rdf:Alt , rdfs:Container , rdfs:Resource ;
+        owl:equivalentClass  rdf:Alt .
+
+owl:Class  a                 owl:Class , rdfs:Resource , rdfs:Class ;
+        rdfs:subClassOf      owl:Class , rdfs:Resource , rdfs:Class ;
+        owl:equivalentClass  owl:Class .
+
+bot:hasSubElement  a        rdfs:Resource , rdf:Property ;
+        rdfs:subPropertyOf  bot:hasSubElement .
+
+xsd:duration  a           rdfs:Resource , owl:Class , rdfs:Datatype , rdfs:Class ;
+        owl:disjointWith  xsd:byte , xsd:unsignedLong , xsd:string , xsd:decimal , xsd:date , xsd:unsignedInt , xsd:time , xsd:unsignedByte , xsd:boolean , xsd:long , xsd:short , xsd:integer , xsd:nonPositiveInteger , xsd:float , xsd:unsignedShort , xsd:dateTime , xsd:nonNegativeInteger , xsd:int .
+
+rdf:List  a                  owl:Class , rdfs:Resource , rdfs:Class ;
+        rdfs:subClassOf      rdf:List , rdfs:Resource ;
+        owl:equivalentClass  rdf:List .
+
+inst:frameA-column2  a     rdfs:Resource , bot:Element ;
+        dot:hasDamageArea  inst:damageArea2 , inst:damageArea5 .
+
+inst:damagePattern5  dot:groupsDamageElement
+                inst:damageElement5-1 .
+
+rdf:Statement  a             owl:Class , rdfs:Resource , rdfs:Class ;
+        rdfs:subClassOf      rdf:Statement , rdfs:Resource ;
+        owl:equivalentClass  rdf:Statement .
+
+rdf:Seq  a                   owl:Class , rdfs:Resource , rdfs:Class ;
+        rdfs:subClassOf      rdf:Seq , rdfs:Container , rdfs:Resource ;
+        owl:equivalentClass  rdf:Seq .
+
+xsd:double  a   rdfs:Resource , rdfs:Class , rdfs:Datatype .
+
+xsd:gMonth  a   rdfs:Resource , rdfs:Class , rdfs:Datatype .
+
+owl:FunctionalProperty
+        a                rdfs:Resource , rdfs:Class ;
+        rdfs:subClassOf  rdf:Property .
+
+xsd:unsignedByte  a          rdfs:Datatype , rdfs:Resource , rdfs:Class , owl:Class ;
+        rdfs:subClassOf      xsd:int , xsd:unsignedInt , xsd:unsignedByte , xsd:byte , xsd:integer , xsd:short , xsd:unsignedLong , xsd:unsignedShort , xsd:long , xsd:nonNegativeInteger ;
+        owl:disjointWith     xsd:time , xsd:float , xsd:dateTime , xsd:date , xsd:boolean , xsd:string , xsd:duration ;
+        owl:equivalentClass  xsd:unsignedByte .
+
+owl:SymmetricProperty
+        a                rdfs:Resource , rdfs:Class ;
+        rdfs:subClassOf  owl:ObjectProperty .
+
+xsd:gMonthDay  a  rdfs:Resource , rdfs:Class , rdfs:Datatype .
+
+rdfs:ContainerMembershipProperty
+        a                    owl:Class , rdfs:Resource , rdfs:Class ;
+        rdfs:subClassOf      rdfs:Resource , rdfs:ContainerMembershipProperty , rdf:Property ;
+        owl:equivalentClass  rdfs:ContainerMembershipProperty .
+
+inst:damageArea4  dot:aggregatesDamagePattern
+                inst:damagePattern4 .
+
+rdf:Property  a              owl:Class , rdfs:Resource , rdfs:Class ;
+        rdfs:subClassOf      rdf:Property , rdfs:Resource ;
+        owl:equivalentClass  rdf:Property .
+
+xsd:nonNegativeInteger
+        a                    owl:Class , rdfs:Class , rdfs:Resource , rdfs:Datatype ;
+        rdfs:subClassOf      xsd:nonNegativeInteger , xsd:integer ;
+        owl:disjointWith     xsd:duration , xsd:date , xsd:float , xsd:string , xsd:dateTime , xsd:boolean , xsd:time ;
+        owl:equivalentClass  xsd:nonNegativeInteger .
+
+owl:sameAs  a               rdfs:Resource , owl:ObjectProperty , rdf:Property , owl:SymmetricProperty ;
+        rdfs:subPropertyOf  owl:sameAs .
+
+rdf:XMLLiteral  a            owl:Class , rdfs:Class , rdfs:Resource , rdfs:Datatype ;
+        rdfs:subClassOf      rdf:XMLLiteral , rdfs:Resource ;
+        owl:equivalentClass  rdf:XMLLiteral .
+
+xsd:unsignedShort  a         owl:Class , rdfs:Class , rdfs:Resource , rdfs:Datatype ;
+        rdfs:subClassOf      xsd:unsignedLong , xsd:unsignedShort , xsd:long , xsd:unsignedInt , xsd:integer , xsd:short , xsd:nonNegativeInteger , xsd:int ;
+        owl:disjointWith     xsd:time , xsd:float , xsd:duration , xsd:boolean , xsd:dateTime , xsd:string , xsd:date ;
+        owl:equivalentClass  xsd:unsignedShort .
+
+xsd:gDay  a     rdfs:Resource , rdfs:Class , rdfs:Datatype .
+
+rdf:nil  a      rdfs:Resource , rdf:List .
+
+rdfs:range  a               rdfs:Resource , rdf:Property ;
+        rdfs:domain         rdfs:Resource , rdf:Property ;
+        rdfs:range          rdfs:Resource , rdfs:Class ;
+        rdfs:subPropertyOf  rdfs:range .
+
+inst:damageElement5-1
+        dot:adjacentDamageElement  inst:damageElement5-2 , inst:damageElement5-3 .
+
+rdfs:isDefinedBy  a             rdfs:Resource , rdf:Property ;
+        rdfs:subPropertyOf      rdfs:isDefinedBy , rdfs:seeAlso ;
+        owl:equivalentProperty  rdfs:isDefinedBy .
+
+xsd:boolean  a            rdfs:Datatype , rdfs:Resource , rdfs:Class , owl:Class ;
+        owl:disjointWith  xsd:unsignedShort , xsd:byte , xsd:int , xsd:nonPositiveInteger , xsd:string , xsd:float , xsd:unsignedByte , xsd:unsignedInt , xsd:time , xsd:duration , xsd:date , xsd:long , xsd:unsignedLong , xsd:dateTime , xsd:short , xsd:decimal , xsd:integer , xsd:nonNegativeInteger .
+
+owl:Nothing  a               rdfs:Resource , rdfs:Class , owl:Class ;
+        rdfs:subClassOf      owl:Nothing , rdfs:Resource , owl:Thing ;
+        owl:equivalentClass  owl:Nothing .
+
+owl:InverseFunctionalProperty
+        a                rdfs:Class , rdfs:Resource ;
+        rdfs:subClassOf  owl:ObjectProperty .
+
+rdfs:Container  a            owl:Class , rdfs:Resource , rdfs:Class ;
+        rdfs:subClassOf      rdfs:Container , rdfs:Resource ;
+        owl:equivalentClass  rdfs:Container .
+
+xsd:hexBinary  a  rdfs:Resource , rdfs:Class , rdfs:Datatype .
+
+inst:frameA-column1  a        rdfs:Resource , bot:Element ;
+        dot:hasDamageElement  inst:damageElement1 .
+
+owl:oneOf  a                rdfs:Resource , rdf:Property ;
+        rdfs:domain         rdfs:Class , rdfs:Resource , owl:Class ;
+        rdfs:subPropertyOf  owl:oneOf .
+
+rdf:Bag  a                   owl:Class , rdfs:Resource , rdfs:Class ;
+        rdfs:subClassOf      rdf:Bag , rdfs:Container , rdfs:Resource ;
+        owl:equivalentClass  rdf:Bag .
+
+inst:frameA-beam1  a       rdfs:Resource , bot:Element ;
+        dot:hasDamageArea  inst:damageArea3 , inst:damageArea4 .
+
+xsd:decimal  a            owl:Class , rdfs:Datatype , rdfs:Resource , rdfs:Class ;
+        owl:disjointWith  xsd:date , xsd:dateTime , xsd:float , xsd:string , xsd:boolean , xsd:duration , xsd:time .
+
+rdfs:label  a               rdfs:Resource , rdf:Property ;
+        rdfs:range          rdfs:Resource , rdfs:Literal ;
+        rdfs:subPropertyOf  rdfs:label .
+
+inst:damageArea3  dot:aggregatesDamageElement
+                inst:damageElement3-1 , inst:damageElement3-2 .
+
+xsd:dateTime  a           rdfs:Class , rdfs:Resource , owl:Class , rdfs:Datatype ;
+        owl:disjointWith  xsd:boolean , xsd:byte , xsd:float , xsd:long , xsd:unsignedLong , xsd:unsignedShort , xsd:date , xsd:integer , xsd:duration , xsd:decimal , xsd:short , xsd:unsignedInt , xsd:string , xsd:unsignedByte , xsd:nonNegativeInteger , xsd:time , xsd:int , xsd:nonPositiveInteger .
+
+xsd:date  a               rdfs:Datatype , owl:Class , rdfs:Resource , rdfs:Class ;
+        owl:disjointWith  xsd:unsignedLong , xsd:dateTime , xsd:unsignedShort , xsd:duration , xsd:unsignedByte , xsd:float , xsd:integer , xsd:long , xsd:string , xsd:decimal , xsd:int , xsd:nonNegativeInteger , xsd:nonPositiveInteger , xsd:boolean , xsd:unsignedInt , xsd:short , xsd:byte , xsd:time .
+
+xsd:int  a                   rdfs:Resource , rdfs:Class , rdfs:Datatype , owl:Class ;
+        rdfs:subClassOf      xsd:long , xsd:integer , xsd:int ;
+        owl:disjointWith     xsd:string , xsd:boolean , xsd:date , xsd:time , xsd:dateTime , xsd:duration , xsd:float ;
+        owl:equivalentClass  xsd:int .
+
+xsd:gYear  a    rdfs:Resource , rdfs:Class , rdfs:Datatype .
+
+rdf:predicate  a                rdfs:Resource , rdf:Property ;
+        rdfs:domain             rdfs:Resource , rdf:Statement ;
+        rdfs:subPropertyOf      rdf:predicate ;
+        owl:equivalentProperty  rdf:predicate .
+
+owl:Thing  a                 rdfs:Resource , rdfs:Class , owl:Class ;
+        rdfs:subClassOf      rdfs:Resource , owl:Thing ;
+        owl:equivalentClass  owl:Thing .
+
+owl:incompatibleWith  a     rdfs:Resource , rdf:Property ;
+        rdfs:domain         rdfs:Resource , owl:Ontology ;
+        rdfs:range          rdfs:Resource , owl:Ontology ;
+        rdfs:subPropertyOf  owl:incompatibleWith .
+
+owl:OntologyProperty  a  rdfs:Resource , rdfs:Class ;
+        rdfs:subClassOf  rdf:Property .
+
+rdfs:subClassOf  a          rdfs:Resource , rdf:Property ;
+        rdfs:domain         rdfs:Resource , rdfs:Class ;
+        rdfs:range          rdfs:Resource , rdfs:Class ;
+        rdfs:subPropertyOf  rdfs:subClassOf .
+
+owl:priorVersion  a         rdfs:Resource , rdf:Property ;
+        rdfs:domain         rdfs:Resource , owl:Ontology ;
+        rdfs:range          rdfs:Resource , owl:Ontology ;
+        rdfs:subPropertyOf  owl:priorVersion .
+
+dot:groupsDamageElement
+        a                   rdfs:Resource , rdf:Property ;
+        rdfs:subPropertyOf  dot:groupsDamageElement .
+
+rdfs:Resource  a             owl:Class , rdfs:Resource , rdfs:Class ;
+        rdfs:subClassOf      rdfs:Resource ;
+        owl:equivalentClass  rdfs:Resource .
+
+owl:TransitiveProperty
+        a                rdfs:Class , rdfs:Resource ;
+        rdfs:subClassOf  owl:ObjectProperty .
+
+rdf:rest  a                     rdfs:Resource , owl:FunctionalProperty , rdf:Property ;
+        rdfs:domain             rdfs:Resource , rdf:List ;
+        rdfs:range              rdfs:Resource , rdf:List ;
+        rdfs:subPropertyOf      rdf:rest ;
+        owl:equivalentProperty  rdf:rest .
+
+owl:equivalentClass  a      rdfs:Resource , rdf:Property ;
+        rdfs:domain         rdfs:Class , rdfs:Resource , owl:Class ;
+        rdfs:range          rdfs:Class , rdfs:Resource , owl:Class ;
+        rdfs:subPropertyOf  owl:equivalentClass .
+
+xsd:short  a                 rdfs:Datatype , rdfs:Class , rdfs:Resource , owl:Class ;
+        rdfs:subClassOf      xsd:short , xsd:int , xsd:long , xsd:integer ;
+        owl:disjointWith     xsd:time , xsd:duration , xsd:dateTime , xsd:date , xsd:string , xsd:boolean , xsd:float ;
+        owl:equivalentClass  xsd:short .
+
+dot:hasDamageElement  a     rdfs:Resource , rdf:Property ;
+        rdfs:subPropertyOf  dot:hasDamageElement .
+
+xsd:positiveInteger  a  rdfs:Resource , rdfs:Class , rdfs:Datatype .
+
+rdfs:Class  a                owl:Class , rdfs:Resource , rdfs:Class ;
+        rdfs:subClassOf      rdfs:Class , rdfs:Resource ;
+        owl:equivalentClass  rdfs:Class .
+
+rdf:type  a                 rdfs:Resource , rdf:Property ;
+        rdfs:range          rdfs:Resource , rdfs:Class ;
+        rdfs:subPropertyOf  rdf:type .
+
+dot:aggregatesDamagePattern
+        a                   rdfs:Resource , rdf:Property ;
+        rdfs:subPropertyOf  dot:aggregatesDamagePattern .
+
+xsd:anyURI  a   rdfs:Resource , rdfs:Class , rdfs:Datatype .
+
+rdfs:Datatype  a             owl:Class , rdfs:Resource , rdfs:Class ;
+        rdfs:subClassOf      rdfs:Resource , rdfs:Datatype , rdfs:Class ;
+        owl:equivalentClass  rdfs:Datatype .
+
+owl:equivalentProperty
+        a                   rdfs:Resource , rdf:Property ;
+        rdfs:subPropertyOf  owl:equivalentProperty .
+
+dot:aggregatesDamageElement
+        a                   rdfs:Resource , rdf:Property ;
+        rdfs:subPropertyOf  dot:aggregatesDamageElement .
+
+owl:versionInfo  a  owl:AnnotationProperty .
+
+inst:structuralFrameA
+        a                  rdfs:Resource , bot:Element ;
+        bot:hasSubElement  inst:frameA-beam1 , inst:frameA-column1 , inst:frameA-column2 .
+
+xsd:long  a                  rdfs:Datatype , rdfs:Class , owl:Class , rdfs:Resource ;
+        rdfs:subClassOf      xsd:integer , xsd:long ;
+        owl:disjointWith     xsd:dateTime , xsd:duration , xsd:boolean , xsd:date , xsd:float , xsd:string , xsd:time ;
+        owl:equivalentClass  xsd:long .
+
+dot:hasDamageArea  a        rdfs:Resource , rdf:Property ;
+        rdfs:subPropertyOf  dot:hasDamageArea .
+
+xsd:base64Binary  a  rdfs:Resource , rdfs:Class , rdfs:Datatype .
+
+xsd:unsignedInt  a           rdfs:Datatype , owl:Class , rdfs:Resource , rdfs:Class ;
+        rdfs:subClassOf      xsd:nonNegativeInteger , xsd:integer , xsd:int , xsd:long , xsd:unsignedLong , xsd:unsignedInt ;
+        owl:disjointWith     xsd:boolean , xsd:string , xsd:dateTime , xsd:float , xsd:time , xsd:date , xsd:duration ;
+        owl:equivalentClass  xsd:unsignedInt .
+
+bot:Element  a               owl:Class , rdfs:Resource , rdfs:Class ;
+        rdfs:subClassOf      bot:Element , rdfs:Resource ;
+        owl:equivalentClass  bot:Element .
+
+xsd:time  a               rdfs:Datatype , rdfs:Resource , rdfs:Class , owl:Class ;
+        owl:disjointWith  xsd:dateTime , xsd:boolean , xsd:nonNegativeInteger , xsd:short , xsd:string , xsd:byte , xsd:date , xsd:unsignedInt , xsd:decimal , xsd:float , xsd:unsignedByte , xsd:unsignedShort , xsd:long , xsd:int , xsd:unsignedLong , xsd:nonPositiveInteger , xsd:duration , xsd:integer .
+
+rdf:subject  a                  rdfs:Resource , rdf:Property ;
+        rdfs:domain             rdfs:Resource , rdf:Statement ;
+        rdfs:subPropertyOf      rdf:subject ;
+        owl:equivalentProperty  rdf:subject .
+
+xsd:byte  a                  owl:Class , rdfs:Class , rdfs:Resource , rdfs:Datatype ;
+        rdfs:subClassOf      xsd:byte , xsd:short , xsd:integer , xsd:long , xsd:int ;
+        owl:disjointWith     xsd:time , xsd:boolean , xsd:dateTime , xsd:float , xsd:duration , xsd:date , xsd:string ;
+        owl:equivalentClass  xsd:byte .
+
+xsd:integer  a               rdfs:Resource , rdfs:Class , owl:Class , rdfs:Datatype ;
+        rdfs:subClassOf      xsd:decimal , xsd:integer ;
+        owl:disjointWith     xsd:time , xsd:dateTime , xsd:date , xsd:string , xsd:float , xsd:boolean , xsd:duration ;
+        owl:equivalentClass  xsd:integer .
+
+rdfs:seeAlso  a                 rdfs:Resource , rdf:Property ;
+        rdfs:subPropertyOf      rdfs:seeAlso ;
+        owl:equivalentProperty  rdfs:seeAlso .
+
+xsd:float  a              owl:Class , rdfs:Datatype , rdfs:Class , rdfs:Resource ;
+        owl:disjointWith  xsd:byte , xsd:duration , xsd:integer , xsd:short , xsd:long , xsd:int , xsd:dateTime , xsd:nonPositiveInteger , xsd:boolean , xsd:nonNegativeInteger , xsd:decimal , xsd:unsignedShort , xsd:unsignedInt , xsd:string , xsd:unsignedLong , xsd:date , xsd:unsignedByte , xsd:time .
+
+rdfs:Literal  a              owl:Class , rdfs:Resource , rdfs:Class ;
+        rdfs:subClassOf      rdfs:Literal , rdfs:Resource ;
+        owl:equivalentClass  rdfs:Literal .
+
+dot:adjacentDamageElement
+        a                   rdfs:Resource , rdf:Property ;
+        rdfs:subPropertyOf  dot:adjacentDamageElement .
+
+owl:Restriction  a           owl:Class , rdfs:Resource , rdfs:Class ;
+        rdfs:subClassOf      owl:Restriction , rdfs:Resource , owl:Class ;
+        owl:equivalentClass  owl:Restriction .
+
+xsd:nonPositiveInteger
+        a                 owl:Class , rdfs:Resource , rdfs:Datatype , rdfs:Class ;
+        owl:disjointWith  xsd:float , xsd:time , xsd:duration , xsd:string , xsd:date , xsd:boolean , xsd:dateTime .
+
+xsd:gYearMonth  a  rdfs:Resource , rdfs:Class , rdfs:Datatype .
+
+xsd:string  a             rdfs:Resource , owl:Class , rdfs:Class , rdfs:Datatype ;
+        owl:disjointWith  xsd:integer , xsd:float , xsd:dateTime , xsd:time , xsd:boolean , xsd:long , xsd:nonNegativeInteger , xsd:nonPositiveInteger , xsd:short , xsd:byte , xsd:decimal , xsd:duration , xsd:unsignedByte , xsd:unsignedShort , xsd:date , xsd:unsignedInt , xsd:int , xsd:unsignedLong .

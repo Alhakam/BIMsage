@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: de.tud.cib.bimsage.icdd.utility.filter.IfcICDDFilterTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.388 sec

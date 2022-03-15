@@ -1,0 +1,14 @@
+@prefix dot: <https://w3id.org/dot#> .
+@prefix inst: <http://ex.org/alhak/data/D2#> .
+@prefix bot: <https://w3id.org/bot#> .
+@prefix nsd: <https://w3id.org/nsd#> .
+
+# Component
+inst:Stone a bot:Element ;
+    dot:hasDamageElement inst:nsdDamage1 ,
+                         inst:nsdDamage2 ;
+.
+# Damage
+inst:nsdDamage1 a nsd:Crack .
+#RenovationDamage
+inst:nsdDamage2 a nsd:Moss .

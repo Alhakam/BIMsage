@@ -1,0 +1,903 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix ud: <https://bim-sis.de/ontology/shacl/ud#> .
+@prefix nsd: <https://w3id.org/nsd#> .
+@prefix udo: <https://wisib.de/ontologie/damage/udo#> .
+
+nsd:StoneDamage
+	a rdfs:Class , sh:NodeShape ;
+	sh:rule ud:BiologicalColonisationForStoneDamage ;
+	sh:rule ud:CrackForStoneDamage ;
+	sh:rule ud:DeformationForStoneDamage ;
+	sh:rule ud:DetachmentForStoneDamage ;
+	sh:rule ud:DiscolorationDepositForStoneDamage ;
+	sh:rule ud:MechanicalDamageForStoneDamage ;
+	sh:rule ud:StructuralLossForStoneDamage ;
+.
+nsd:BiologicalColonisation
+	a rdfs:Class , sh:NodeShape ;
+	sh:rule ud:AlgaForBiologicalColonisation ;
+	sh:rule ud:LichenForBiologicalColonisation ;
+	sh:rule ud:MossForBiologicalColonisation ;
+	sh:rule ud:MouldForBiologicalColonisation ;
+	sh:rule ud:PlantsForBiologicalColonisation ;
+	sh:rule ud:UnidentifiedDamageForBiologicalColonisation ;
+.
+nsd:Crack
+	a rdfs:Class , sh:NodeShape ;
+	sh:rule ud:SingleCrackForCrack ;
+	sh:rule ud:CraqueleForCrack ;
+	sh:rule ud:FractureForCrack ;
+	sh:rule ud:HairCrackForCrack ;
+	sh:rule ud:SplittingForCrack ;
+	sh:rule ud:StarCrackForCrack ;
+	sh:rule ud:UnidentifiedDamageForCrack ;
+.
+nsd:Deformation
+	a rdfs:Class , sh:NodeShape ;
+	sh:rule ud:ConcaveDeformationForDeformation ;
+	sh:rule ud:ConvexDeformationForDeformation ;
+	sh:rule ud:UnidentifiedDamageForDeformation ;
+.
+nsd:Detachment
+	a rdfs:Class , sh:NodeShape ;
+	sh:rule ud:BlisteringForDetachment ;
+	sh:rule ud:BurstingForDetachment ;
+	sh:rule ud:DelaminationForDetachment ;
+	sh:rule ud:DisintegrationForDetachment ;
+	sh:rule ud:FragmentationForDetachment ;
+	sh:rule ud:PeelingForDetachment ;
+	sh:rule ud:ScalingForDetachment ;
+	sh:rule ud:UnidentifiedDamageForDetachment ;
+.
+nsd:DiscolorationDeposit
+	a rdfs:Class , sh:NodeShape ;
+	sh:rule ud:ColourationForDiscolorationDeposit ;
+	sh:rule ud:CrustForDiscolorationDeposit ;
+	sh:rule ud:DepositForDiscolorationDeposit ;
+	sh:rule ud:EfflorescenceForDiscolorationDeposit ;
+	sh:rule ud:FilmForDiscolorationDeposit ;
+	sh:rule ud:GraffitiForDiscolorationDeposit ;
+	sh:rule ud:MoistAreaForDiscolorationDeposit ;
+	sh:rule ud:PatinaForDiscolorationDeposit ;
+	sh:rule ud:SoilingForDiscolorationDeposit ;
+	sh:rule ud:StainingForDiscolorationDeposit ;
+	sh:rule ud:UnidentifiedDamageForDiscolorationDeposit
+.
+nsd:MechanicalDamage
+	a rdfs:Class , sh:NodeShape ;
+	sh:rule ud:AbrasionForMechanicalDamage ;
+	sh:rule ud:CutForMechanicalDamage ;
+	sh:rule ud:ImpactDamageForMechanicalDamage ;
+	sh:rule ud:KeyingForMechanicalDamage ;
+	sh:rule ud:ScratchForMechanicalDamage ;
+	sh:rule ud:UnidentifiedDamageForMechanicalDamage ;
+.
+nsd:StructuralLoss
+	a rdfs:Class , sh:NodeShape ;
+	sh:rule ud:AlveolizationForStructuralLoss ;
+	sh:rule ud:CovingForStructuralLoss ;
+	sh:rule ud:ErosionForStructuralLoss ;
+	sh:rule ud:GapForStructuralLoss ;
+	sh:rule ud:MicrokarstForStructuralLoss ;
+	sh:rule ud:PittingForStructuralLoss ;
+	sh:rule ud:UnidentifiedDamageForStructuralLoss ;
+.
+ud:SubClassCheckPhase2
+	a sh:NodeShape ;
+	sh:or (
+		[ sh:class nsd:BiologicalColonisation ; ]
+		[ sh:class nsd:Crack ; ]
+		[ sh:class nsd:Deformation ; ]
+		[ sh:class nsd:Detachment ; ]
+		[ sh:class nsd:DiscolorationDeposit ; ]
+		[ sh:class nsd:MechanicalDamage ; ]
+		[ sh:class nsd:StructuralLoss ; ]
+	)
+.
+ud:SubClassCheckPhase3BiologicalColonisation
+	a sh:NodeShape ;
+	sh:or (
+		[ sh:class nsd:Alga ; ]
+		[ sh:class nsd:Lichen ; ]
+		[ sh:class nsd:Moss ; ]
+		[ sh:class nsd:Mould ; ]
+		[ sh:class nsd:Plants ; ]
+	)
+.
+ud:SubClassCheckPhase3Crack
+	a sh:NodeShape ;
+	sh:or (
+	    [ sh:class nsd:SingleCrack ; ]
+		[ sh:class nsd:Craquele ; ]
+		[ sh:class nsd:Fracture ; ]
+		[ sh:class nsd:HairCrack ; ]
+		[ sh:class nsd:Splitting ; ]
+		[ sh:class nsd:StarCrack ; ]
+	)
+.
+ud:SubClassCheckPhase3Deformation
+	a sh:NodeShape ;
+	sh:or (
+		[ sh:class nsd:ConcaveDeformation ; ]
+		[ sh:class nsd:ConvexDeformation ; ]
+	)
+.
+ud:SubClassCheckPhase3Detachment
+	a sh:NodeShape ;
+	sh:or (
+		[ sh:class nsd:Blistering ; ]
+		[ sh:class nsd:Bursting ; ]
+		[ sh:class nsd:Delamination ; ]
+		[ sh:class nsd:Disintegration ; ]
+		[ sh:class nsd:Fragmentation ; ]
+		[ sh:class nsd:Peeling ; ]
+		[ sh:class nsd:Scaling ; ]
+	)
+.
+ud:SubClassCheckPhase3DiscolorationDeposit
+	a sh:NodeShape ;
+	sh:or (
+		[ sh:class nsd:Colouration ; ]
+		[ sh:class nsd:Crust ; ]
+		[ sh:class nsd:Deposit ; ]
+		[ sh:class nsd:Efflorescence ; ]
+		[ sh:class nsd:Film ; ]
+		[ sh:class nsd:Graffiti ; ]
+		[ sh:class nsd:MoistArea ; ]
+		[ sh:class nsd:Patina ; ]
+		[ sh:class nsd:Soiling ; ]
+		[ sh:class nsd:Staining ; ]
+	)
+.
+ud:SubClassCheckPhase3MechanicalDamage
+	a sh:NodeShape ;
+	sh:or (
+		[ sh:class nsd:Abrasion ; ]
+		[ sh:class nsd:Cut ; ]
+		[ sh:class nsd:ImpactDamage ; ]
+		[ sh:class nsd:Keying ; ]
+		[ sh:class nsd:Scratch ; ]
+	)
+.
+ud:SubClassCheckPhase3StructuralLoss
+	a sh:NodeShape ;
+	sh:or (
+		[ sh:class nsd:Alveolization ; ]
+		[ sh:class nsd:Coving ; ]
+		[ sh:class nsd:Erosion ; ]
+		[ sh:class nsd:Gap ; ]
+		[ sh:class nsd:Microkarst ; ]
+		[ sh:class nsd:Pitting ; ]
+	)
+.
+ud:BiologicalColonisationForStoneDamage
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 0 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:BiologicalColonisation ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase2 ;
+		]
+	] ;
+.
+ud:CrackForStoneDamage
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 0 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:Crack ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase2 ;
+		]
+	] ;
+.
+ud:DeformationForStoneDamage
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 0 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:Deformation ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase2 ;
+		]
+	] ;
+.
+ud:DetachmentForStoneDamage
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 0 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:Detachment ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase2 ;
+		]
+	] ;
+.
+ud:DiscolorationDepositForStoneDamage
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 0 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:DiscolorationDeposit ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase2 ;
+		]
+	] ;
+.
+ud:MechanicalDamageForStoneDamage
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 0 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:MechanicalDamage ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase2 ;
+		]
+	] ;
+.
+ud:StructuralLossForStoneDamage
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 0 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:Deformation ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase2 ;
+		]
+	] ;
+.
+ud:UnidentifiedDamageForStoneDamage
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 0 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object udo:UnidentifiedDamage ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase2 ;
+		]
+	] ;
+.
+ud:AlgaForBiologicalColonisation
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:Alga ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3BiologicalColonisation ;
+		]
+	] ;
+.
+ud:LichenForBiologicalColonisation
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:Lichen ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3BiologicalColonisation ;
+		]
+	] ;
+.
+ud:MossForBiologicalColonisation
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:Moss ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3BiologicalColonisation ;
+		]
+	] ;
+.
+ud:MouldForBiologicalColonisation
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:Mould ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3BiologicalColonisation ;
+		]
+	] ;
+.
+ud:PlantsForBiologicalColonisation
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:Plants ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3BiologicalColonisation ;
+		]
+	] ;
+.
+ud:UnidentifiedDamageForBiologicalColonisation
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object udo:UnidentifiedDamage ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3BiologicalColonisation ;
+		]
+	] ;
+.
+ud:SingleCrackForCrack
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:SingleCrack ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3Crack ;
+		]
+	] ;
+.
+ud:CraqueleForCrack
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:Craquele ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3Crack ;
+		]
+	] ;
+.
+ud:FractureForCrack
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:Fracture ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3Crack ;
+		]
+	] ;
+.
+ud:HairCrackForCrack
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:HairCrack ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3Crack ;
+		]
+	] ;
+.
+ud:SplittingForCrack
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:Splitting ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3Crack ;
+		]
+	] ;
+.
+ud:StarCrackForCrack
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:StarCrack ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3Crack ;
+		]
+	] ;
+.
+ud:UnidentifiedDamageForCrack
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object udo:UnidentifiedDamage ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3Crack ;
+		]
+	] ;
+.
+ud:ConcaveDeformationForDeformation
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:ConcaveDeformation ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3Deformation ;
+		]
+	] ;
+.
+ud:ConvexDeformationForDeformation
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:ConvexDeformation ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3Deformation ;
+		]
+	] ;
+.
+ud:UnidentifiedDamageForDeformation
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object udo:UnidentifiedDamage ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3Deformation ;
+		]
+	] ;
+.
+ud:BlisteringForDetachment
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:Blistering ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3Detachment ;
+		]
+	] ;
+.
+ud:BurstingForDetachment
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:Bursting ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3Detachment ;
+		]
+	] ;
+.
+ud:DelaminationForDetachment
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:Delamination ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3Detachment ;
+		]
+	] ;
+.
+ud:DisintegrationForDetachment
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:Disintegration ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3Detachment ;
+		]
+	] ;
+.
+ud:FragmentationForDetachment
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:Fragmentation ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3Detachment ;
+		]
+	] ;
+.
+ud:PeelingForDetachment
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:Peeling ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3Detachment ;
+		]
+	] ;
+.
+ud:ScalingForDetachment
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:Scaling ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3Detachment ;
+		]
+	] ;
+.
+ud:UnidentifiedDamageForDetachment
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object udo:UnidentifiedDamage ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3Detachment ;
+		]
+	] ;
+.
+ud:ColourationForDiscolorationDeposit
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:Colouration ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3DiscolorationDeposit ;
+		]
+	] ;
+.
+ud:CrustForDiscolorationDeposit
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:Crust ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3DiscolorationDeposit ;
+		]
+	] ;
+.
+ud:DepositForDiscolorationDeposit
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:Deposit ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3DiscolorationDeposit ;
+		]
+	] ;
+.
+ud:EfflorescenceForDiscolorationDeposit
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:Efflorescence ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3DiscolorationDeposit ;
+		]
+	] ;
+.
+ud:FilmForDiscolorationDeposit
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:Film ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3DiscolorationDeposit ;
+		]
+	] ;
+.
+ud:GraffitiForDiscolorationDeposit
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:Graffiti ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3DiscolorationDeposit ;
+		]
+	] ;
+.
+ud:MoistAreaForDiscolorationDeposit
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:MoistArea ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3DiscolorationDeposit ;
+		]
+	] ;
+.
+ud:PatinaForDiscolorationDeposit
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:Patina ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3DiscolorationDeposit ;
+		]
+	] ;
+.
+ud:SoilingForDiscolorationDeposit
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:Soiling ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3DiscolorationDeposit ;
+		]
+	] ;
+.
+ud:StainingForDiscolorationDeposit
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:Staining ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3DiscolorationDeposit ;
+		]
+	] ;
+.
+ud:UnidentifiedDamageForDiscolorationDeposit
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object udo:UnidentifiedDamage ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3DiscolorationDeposit ;
+		]
+	] ;
+.
+ud:AbrasionForMechanicalDamage
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:Abrasion ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3MechanicalDamage ;
+		]
+	] ;
+.
+ud:CutForMechanicalDamage
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:Cut ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3MechanicalDamage ;
+		]
+	] ;
+.
+ud:ImpactDamageForMechanicalDamage
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:ImpactDamage ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3MechanicalDamage ;
+		]
+	] ;
+.
+ud:KeyingForMechanicalDamage
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:Keying ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3MechanicalDamage ;
+		]
+	] ;
+.
+ud:ScratchForMechanicalDamage
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:Scratch ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3MechanicalDamage ;
+		]
+	] ;
+.
+ud:UnidentifiedDamageForMechanicalDamage
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object udo:UnidentifiedDamage ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3MechanicalDamage ;
+		]
+	] ;
+.
+ud:AlveolizationForStructuralLoss
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:Alveolization ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3StructuralLoss ;
+		]
+	] ;
+.
+ud:CovingForStructuralLoss
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:Coving ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3StructuralLoss ;
+		]
+	] ;
+.
+ud:ErosionForStructuralLoss
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:Erosion ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3StructuralLoss ;
+		]
+	] ;
+.
+ud:GapForStructuralLoss
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:Gap ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3StructuralLoss ;
+		]
+	] ;
+.
+ud:MicrokarstForStructuralLoss
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:Microkarst ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3StructuralLoss ;
+		]
+	] ;
+.
+ud:PittingForStructuralLoss
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object nsd:Pitting ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3StructuralLoss ;
+		]
+	] ;
+.
+ud:UnidentifiedDamageForStructuralLoss
+	a sh:TripleRule ;
+	sh:deactivated false ;
+	sh:order 1 ;
+	sh:subject sh:this ;
+	sh:predicate rdf:type ;
+	sh:object udo:UnidentifiedDamage ;
+	sh:condition [
+		sh:not [
+		sh:node ud:SubClassCheckPhase3StructuralLoss ;
+		]
+	] ;
+.

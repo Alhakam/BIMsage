@@ -1,0 +1,18 @@
+{
+  "diagnosisConfigurations": [
+    {
+      "id": "bimsis",
+      "name": "Natural Stone Damage",
+      "tboxList": [
+        "dot",
+        "nsd",
+        "bot",
+        "sco"
+      ],
+      "shaclRulesList": [
+        "nsd-validation",
+        "nsd-unidentifiedDamages"
+      ]
+    }
+  ]
+}

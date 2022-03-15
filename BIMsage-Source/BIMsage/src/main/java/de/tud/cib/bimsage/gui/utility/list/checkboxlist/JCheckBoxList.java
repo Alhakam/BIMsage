@@ -1,0 +1,64 @@
+package de.tud.cib.bimsage.gui.utility.list.checkboxlist;
+
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+
+public class JCheckBoxList extends JList {
+
+    public JCheckBoxList() {
+        setCellRenderer(new CellRenderer());
+        addMouseListener(new MouseAdapter() {
+            public void mousePressed(MouseEvent e) {
+                int index = locationToIndex(e.getPoint());
+                if (index != -1) {
+                    JCheckBox checkbox = (JCheckBox) getModel().getElementAt(
+                            index);
+                    checkbox.setSelected(!checkbox.isSelected());
+                    repaint();
+                }
+            }
+        });
+        setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+    }
+
+    protected class CellRenderer implements ListCellRenderer {
+        public Component getListCellRendererComponent(JList list, Object value,
+                                                      int index, boolean isSelected, boolean cellHasFocus) {
+            JCheckBox checkbox = (JCheckBox) value;
+
+            if (isSelected) {
+                // checkbox.setBorderPainted(true);
+                // checkbox.setForeground(UIManager.getColor("List.selectionForeground"));
+                // checkbox.setBackground(UIManager.getColor("List.selectionBackground"));
+            } else {
+                // checkbox.setBorderPainted(false);
+                // checkbox.setForeground(UIManager.getColor("List.foreground"));
+                checkbox.setBackground(UIManager.getColor("List.background"));
+            }
+            return checkbox;
+        }
+    }
+
+    public void selectAll() {
+        int size = this.getModel().getSize();
+        for (int i = 0; i < size; i++) {
+            JCheckBox checkbox = (JCheckboxWithObject) this.getModel()
+                    .getElementAt(i);
+            checkbox.setSelected(true);
+        }
+        this.repaint();
+    }
+
+    public void deselectAll() {
+        int size = this.getModel().getSize();
+        for (int i = 0; i < size; i++) {
+            JCheckBox checkbox = (JCheckboxWithObject) this.getModel()
+                    .getElementAt(i);
+            checkbox.setSelected(false);
+        }
+        this.repaint();
+    }
+}

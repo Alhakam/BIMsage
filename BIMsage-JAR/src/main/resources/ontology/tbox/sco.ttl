@@ -1,0 +1,168 @@
+@prefix : <https://www.bim-sis.de/ontology/sco#> .
+@prefix bot: <https://w3id.org/bot#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sco: <https://www.bim-sis.de/ontology/sco#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix dcterms: <http://purl.org/dc/terms> .
+@base <https://www.bim-sis.de/ontology/sco#> .
+
+<https://www.bim-sis.de/ontology/sco#> rdf:type owl:Ontology ;
+                                        owl:versionIRI <https://www.bim-sis.de/ontology/sco#/0.1.0> ;
+                                        dcterms:creator [ rdf:type foaf:Person ;
+                                                          foaf:name "Al-Hakam Hamdan"
+                                                        ] ,
+                                                        [ rdf:type foaf:Person ;
+                                                          foaf:name "Mushtak Seeaed"
+                                                        ] ;
+                                        dcterms:description "Ontology for describing stone components in masonry structures"@en ;
+                                        dcterms:license "https://creativecommons.org/licenses/by/1.0" ;
+                                        dcterms:modified "June 28st 2021" ;
+                                        dcterms:title "Stone Component Ontology"@en ;
+                                        vann:preferredNamespacePrefix "sco" ;
+                                        vann:preferredNamespaceUri "https://www.bim-sis.de/ontology/sco#" .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://www.bim-sis.de/ontology/sco#adjacentJoint
+sco:adjacentJoint rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf sco:adjacentStoneComponent ;
+                  rdfs:domain sco:StoneComponent ;
+                  rdfs:range sco:Joint ;
+                  rdfs:comment "Describes the relationship between a stone component (either stone or joint) and an adjacent joint."@en ;
+                  rdfs:label "adjacent joint"@en .
+
+
+###  https://www.bim-sis.de/ontology/sco#adjacentStone
+sco:adjacentStone rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf sco:adjacentStoneComponent ;
+                  rdfs:domain sco:StoneComponent ;
+                  rdfs:range sco:Stone ;
+                  rdfs:comment "Describes the relationship between a stone component (either stone or joint) and an adjacent stone."@en ;
+                  rdfs:label "adjacent stone"@en .
+
+
+###  https://www.bim-sis.de/ontology/sco#adjacentStoneComponent
+sco:adjacentStoneComponent rdf:type owl:ObjectProperty ;
+                           rdfs:domain sco:StoneComponent ;
+                           rdfs:range sco:StoneComponent ;
+                           rdfs:comment "Describes the relationship between two adjacent Stone Component individuals."@en ;
+                           rdfs:label "adjacent stone component"@en .
+
+
+###  https://www.bim-sis.de/ontology/sco#aggregatesJoint
+sco:aggregatesJoint rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf sco:aggregatesStoneComponent ;
+                    rdfs:domain bot:Element ;
+                    rdfs:range sco:Joint ;
+                    rdfs:comment "Describes the relationship between a building element (e.g. a wall) and a joint that is aggregated as part of the element."@en ;
+                    rdfs:label "aggregates joint"@en .
+
+
+###  https://www.bim-sis.de/ontology/sco#aggregatesStone
+sco:aggregatesStone rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf sco:aggregatesStoneComponent ;
+                    rdfs:domain bot:Element ;
+                    rdfs:range sco:Stone ;
+                    rdfs:comment "Describes the relationship between a building element (e.g. a wall) and a stone that is aggregated as part of the element."@en ;
+                    rdfs:label "aggregates stone"@en .
+
+
+###  https://www.bim-sis.de/ontology/sco#aggregatesStoneComponent
+sco:aggregatesStoneComponent rdf:type owl:ObjectProperty ;
+                             rdfs:subPropertyOf bot:hasSubElement ;
+                             rdfs:domain bot:Element ;
+                             rdfs:range sco:StoneComponent ;
+                             rdfs:comment "Describes the relationship between a building element (e.g. a wall) and a stone component that is aggregated as part of the element."@en ;
+                             rdfs:label "aggregates stone component"@en .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://www.bim-sis.de/ontology/sco#jointDimensional
+sco:jointDimensional rdf:type owl:DatatypeProperty ;
+                     rdfs:domain sco:Joint ;
+                     rdfs:comment "Defines a size specification of a joint, such as width or depth."@en ;
+                     rdfs:label "joint dimensional"@en .
+
+
+###  https://www.bim-sis.de/ontology/sco#jointWidth
+sco:jointWidth rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf sco:jointDimensional ;
+               rdfs:domain sco:Joint ;
+               rdfs:comment "Defines the width of a joint. Unit in [mm]."@en ;
+               rdfs:label "joint width"@en .
+
+
+###  https://www.bim-sis.de/ontology/sco#stoneDimensional
+sco:stoneDimensional rdf:type owl:DatatypeProperty ;
+                     rdfs:domain sco:Stone ;
+                     rdfs:comment "Defines a size specification of a stone, such as width or depth."@en ;
+                     rdfs:label "stone dimensional"@en .
+
+
+###  https://www.bim-sis.de/ontology/sco#stoneHeight
+sco:stoneHeight rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf sco:stoneDimensional ;
+                rdfs:domain sco:Stone ;
+                rdfs:comment "Defines the height of a stone. Unit in [cm]."@en ;
+                rdfs:label "stone height"@en .
+
+
+###  https://www.bim-sis.de/ontology/sco#stoneLength
+sco:stoneLength rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf sco:stoneDimensional ;
+                rdfs:domain sco:Stone ;
+                rdfs:comment "Defines the length of a stone. Unit in [cm]."@en ;
+                rdfs:label "stone length"@en .
+
+
+###  https://www.bim-sis.de/ontology/sco#stoneWidth
+sco:stoneWidth rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf sco:stoneDimensional ;
+               rdfs:domain sco:Stone ;
+               rdfs:comment "Defines the width of a stone. Unit in [cm]."@en ;
+               rdfs:label "stone width"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+
+###  https://www.bim-sis.de/ontology/sco#Joint
+sco:Joint rdf:type owl:Class ;
+          rdfs:subClassOf sco:StoneComponent ;
+          rdfs:comment "Describes the area between adjacent stones. Is usually mortared."@en ;
+          rdfs:label "Joint"@en .
+
+
+###  https://www.bim-sis.de/ontology/sco#Stone
+sco:Stone rdf:type owl:Class ;
+          rdfs:subClassOf sco:StoneComponent ;
+          rdfs:comment "A stone is a compact object made of minerals or rock, which could be used for buliding bearing structures."@en ;
+          rdfs:label "Stone"@en .
+
+
+###  https://www.bim-sis.de/ontology/sco#StoneComponent
+sco:StoneComponent rdf:type owl:Class ;
+                   rdfs:subClassOf bot:Element ;
+                   rdfs:comment "Component of a masonry structure, usually a stone or mortared joint."@en ;
+                   rdfs:label "Stone component"@en .
+
+
+[ rdf:type foaf:Person ;
+  foaf:name "Al-Hakam Hamdan"
+] .
+
+[ rdf:type foaf:Person ;
+   foaf:name "Mushtak Seeaed"
+ ] .

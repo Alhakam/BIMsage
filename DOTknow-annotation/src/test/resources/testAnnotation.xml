@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<annotation>
-    <IfcClass id="1" ifcGUID="1ZJKF$F_f84ww7__q1FDPX" model="testModel.ifc" name="IfcAbutment"/>
-    <IfcClass id="2" ifcGUID="2M6f_UD1nEkvEACW0qZrgl" model="testModel.ifc" name="IfcReinforcement"/>
-</annotation>

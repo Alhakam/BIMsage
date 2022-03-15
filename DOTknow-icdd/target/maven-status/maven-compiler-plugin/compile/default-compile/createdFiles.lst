@@ -1,9 +1,0 @@
-de\tud\cib\dotknow\icdd\activedata\treemodel\ICDDStructure.class
-de\tud\cib\dotknow\icdd\activedata\ActiveICDD.class
-de\tud\cib\dotknow\icdd\activedata\treemodel\ICDDTreeCreator.class
-de\tud\cib\dotknow\icdd\utility\filter\ICDDFilter.class
-de\tud\cib\dotknow\icdd\configuration\input\ModelElement.class
-de\tud\cib\dotknow\icdd\utility\filter\IfcICDDFilter.class
-de\tud\cib\dotknow\icdd\configuration\input\ConstructionType.class
-de\tud\cib\dotknow\icdd\configuration\ICDDBuilder.class
-de\tud\cib\dotknow\icdd\configuration\ICDDModifier.class

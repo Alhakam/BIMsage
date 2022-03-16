@@ -59,7 +59,7 @@ rdf:Bag  a               rdfs:Resource , rdfs:Class ;
 rdfs:seeAlso  a             rdfs:Resource , rdf:Property ;
         rdfs:subPropertyOf  rdfs:seeAlso .
 
-rdf:XMLLiteral  a  rdfs:Class , rdfs:Resource , rdfs:Datatype .
+rdf:XMLLiteral  a  rdfs:Resource , rdfs:Class , rdfs:Datatype .
 
 rdfs:comment  a     rdfs:Resource , rdf:Property ;
         rdfs:range  rdfs:Literal .

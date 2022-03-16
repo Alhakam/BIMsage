@@ -21,5 +21,10 @@
       <option name="name" value="JBoss Community repository" />
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven-repository" />
+      <option name="name" value="maven-repository" />
+      <option name="url" value="file:///D:\Arbeit\BIMsage\BIMsage-Repo\BIMsage\BIMsage-Source\BIMsage/maven-repository" />
+    </remote-repository>
   </component>
 </project>

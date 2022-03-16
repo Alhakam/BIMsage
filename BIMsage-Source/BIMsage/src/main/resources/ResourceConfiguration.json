@@ -8,7 +8,7 @@
     },
     "dotExtensions": [
       {
-        "url": "./ontology/tbox/cdo.ttl",
+        "url": "src/main/resources/ontology/tbox/cdo.ttl",
         "prefix": "cdo",
         "namespace": "https://wisib.de/ontologie/damage/cdo#",
         "domainLabel": "Reinforced Concrete",
@@ -30,7 +30,7 @@
         "domainLabel": "Building Topology Ontology"
       },
       {
-        "url": "./ontology/tbox/sco.ttl",
+        "url": "src/main/resources/ontology/tbox/sco.ttl",
         "prefix": "sco",
         "namespace": "https://www.bim-sis.de/ontology/sco#",
         "domainLabel": "Stone Component Ontology"
@@ -39,25 +39,25 @@
   },
   "shaclRules": [
     {
-      "url": "./ontology/shacl/damageValidation.ttl",
+      "url": "src/main/resources/ontology/shacl/damageValidation.ttl",
       "id": "nsd-validation",
       "name": "Validation rules for the NSD ontology",
       "validation": true
     },
     {
-      "url": "./ontology/shacl/unidentifiedDamages.ttl",
+      "url": "src/main/resources/ontology/shacl/unidentifiedDamages.ttl",
       "id": "nsd-unidentifiedDamages",
       "name": "Rules for inferring possible damage specifications",
       "validation": false
     },
     {
-      "url": "./ontology/shacl/renovationMeasures.ttl",
+      "url": "src/main/resources/ontology/shacl/renovationMeasures.ttl",
       "id": "nsd-renovationMeasures",
       "name": "Recommendations for renovation on natural stone",
       "validation": false
     },
     {
-      "url": "./ontology/shacl/renovationMeasuresClassification.ttl",
+      "url": "src/main/resources/ontology/shacl/renovationMeasuresClassification.ttl",
       "id": "nsd-renovationMeasuresClassification",
       "name": "Rules for assigning renovation classes to inferred recommendations",
       "validation": false
@@ -65,27 +65,27 @@
   ],
   "sparqlQueries": [
     {
-      "url": "./ontology/sparql/QueryDamageMap.sql",
+      "url": "src/main/resources/ontology/sparql/QueryDamageMap.sql",
       "id": "queryStoneDamageMap"
     },
     {
-      "url": "./ontology/sparql/QueryStoneArea.sql",
+      "url": "src/main/resources/ontology/sparql/QueryStoneArea.sql",
       "id": "queryStoneDamageArea"
     },
     {
-      "url": "./ontology/sparql/QueryDamageAreasByType.sql",
+      "url": "src/main/resources/ontology/sparql/QueryDamageAreasByType.sql",
       "id": "queryDamageAreasByType"
     },
     {
-      "url": "./ontology/sparql/QueryDamageArea.sql",
+      "url": "src/main/resources/ontology/sparql/QueryDamageArea.sql",
       "id": "queryDamageArea"
     },
     {
-      "url": "./ontology/sparql/QueryDamageCategories.sql",
+      "url": "src/main/resources/ontology/sparql/QueryDamageCategories.sql",
       "id": "queryDamageCategories"
     },
     {
-      "url": "./ontology/sparql/QueryDamageMultiples.sql",
+      "url": "src/main/resources/ontology/sparql/QueryDamageMultiples.sql",
       "id": "queryDamageMultiples"
     }
   ],

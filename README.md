@@ -1,8 +1,6 @@
 # BIMsage
-BIM-based Multimodel platform for managing existing constructions (prototype)
+BIM-based Multimodel platform for managing existing constructions (prototype).
 
-The main-method to start the application is located in the DOTknow-gui-module in the Main.java Class. When the application is opened, just create an ICDD by creating a new project and selecting an IFC model.
+To start the software, just open the BIMsage-Jar directory and start the BIMsage-1.0-SNAPSHOT-spring-boot.jar.
 
-Currently the load-feature is not fully implemented and therefore not available in the prototype.
-
-A fully detailed description / documentation will follow in the future.
+![MainPic](https://user-images.githubusercontent.com/33219528/158560159-0f29ff32-f6b0-4f63-9ade-1e65779a0aba.png)

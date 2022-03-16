@@ -35,7 +35,7 @@ rdf:Alt  a               rdfs:Resource , rdfs:Class ;
         rdfs:subClassOf  rdfs:Container , rdf:Alt .
 
 rdfs:Datatype  a         rdfs:Resource , rdfs:Class ;
-        rdfs:subClassOf  rdfs:Resource , rdfs:Class , rdfs:Datatype .
+        rdfs:subClassOf  rdfs:Class , rdfs:Resource , rdfs:Datatype .
 
 rdf:Statement  a         rdfs:Resource , rdfs:Class ;
         rdfs:subClassOf  rdf:Statement , rdfs:Resource .

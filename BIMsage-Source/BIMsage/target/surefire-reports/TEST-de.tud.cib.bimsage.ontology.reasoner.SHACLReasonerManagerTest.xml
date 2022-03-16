@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="de.tud.cib.bimsage.ontology.reasoner.SHACLReasonerManagerTest" time="1.232" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="de.tud.cib.bimsage.ontology.reasoner.SHACLReasonerManagerTest" time="1.083" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2021.3.2"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\OpenJDK\jdk-8.0.262.10-hotspot\jre\bin"/>
     <property name="java.vm.version" value="25.71-b10"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\Arbeit\BIMsage\BIMsage"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Arbeit\BIMsage\BIMsage-Repo\BIMsage\BIMsage-Source\BIMsage"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\Arbeit\BIMsage\BIMsage"/>
+    <property name="user.dir" value="D:\Arbeit\BIMsage\BIMsage-Repo\BIMsage\BIMsage-Source\BIMsage"/>
     <property name="java.runtime.version" value="1.8.0-262-b10"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files (x86)\OpenJDK\jdk-8.0.262.10-hotspot\jre\lib\endorsed"/>
@@ -64,10 +64,10 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase classname="de.tud.cib.bimsage.ontology.reasoner.SHACLReasonerManagerTest" name="testValidation" time="0.481"/>
-  <testcase classname="de.tud.cib.bimsage.ontology.reasoner.SHACLReasonerManagerTest" name="testRenovationClassification" time="0.308"/>
-  <testcase classname="de.tud.cib.bimsage.ontology.reasoner.SHACLReasonerManagerTest" name="testValidationWithReport" time="0.101"/>
-  <testcase classname="de.tud.cib.bimsage.ontology.reasoner.SHACLReasonerManagerTest" name="testReasoning" time="0.109"/>
-  <testcase classname="de.tud.cib.bimsage.ontology.reasoner.SHACLReasonerManagerTest" name="testMerging" time="0.091"/>
-  <testcase classname="de.tud.cib.bimsage.ontology.reasoner.SHACLReasonerManagerTest" name="testRenovationReasoning" time="0.142"/>
+  <testcase classname="de.tud.cib.bimsage.ontology.reasoner.SHACLReasonerManagerTest" name="testValidation" time="0.399"/>
+  <testcase classname="de.tud.cib.bimsage.ontology.reasoner.SHACLReasonerManagerTest" name="testRenovationClassification" time="0.194"/>
+  <testcase classname="de.tud.cib.bimsage.ontology.reasoner.SHACLReasonerManagerTest" name="testValidationWithReport" time="0.075"/>
+  <testcase classname="de.tud.cib.bimsage.ontology.reasoner.SHACLReasonerManagerTest" name="testReasoning" time="0.134"/>
+  <testcase classname="de.tud.cib.bimsage.ontology.reasoner.SHACLReasonerManagerTest" name="testMerging" time="0.098"/>
+  <testcase classname="de.tud.cib.bimsage.ontology.reasoner.SHACLReasonerManagerTest" name="testRenovationReasoning" time="0.183"/>
 </testsuite>
